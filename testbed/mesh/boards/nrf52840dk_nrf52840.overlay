@@ -1,0 +1,12 @@
+/ {
+    aliases {
+        la0 = &la;
+    };
+    leds {
+      la: la {
+        status = "okay";
+        gpios = <&gpio1 7 GPIO_ACTIVE_HIGH>;
+        label = "Output used for Logic Analyzer";
+      };
+    };
+};
