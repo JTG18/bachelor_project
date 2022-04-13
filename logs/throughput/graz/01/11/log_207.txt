@@ -1,0 +1,896 @@
+2022-03-24 19:26:13.406363|*** Booting Zephyr OS build v2.7.99-416-ge231d5053579  ***
+2022-03-24 19:26:13.410672|Initializing...
+2022-03-24 19:26:13.411328|The UUID of the device is: 0x33 0xcd 0x60 0xb3 0x46 0x92 0xc6 0xb5 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 
+2022-03-24 19:26:13.424324|Bluetooth initialized
+2022-03-24 19:26:13.427451|Mesh initialized
+2022-03-24 19:26:13.431004|Self-provisioning with address 0x4d33
+2022-03-24 19:26:13.445767|Provisioned and configured!
+2022-03-24 19:26:13.448199|[00:00:00.401,367] [1;33m<wrn> bt_hci_core: Failed to set device name (-12)[0m
+2022-03-24 19:26:13.722337|[00:00:00.402,740] [0m<inf> bt_hci_core: HW Platform: Nordic Semiconductor (0x0002)[0m
+2022-03-24 19:26:13.730461|[00:00:00.402,740] [0m<inf> bt_hci_core: HW Variant: nRF52x (0x0002)[0m
+2022-03-24 19:26:13.737543|[00:00:00.402,740] [0m<inf> bt_hci_core: Firmware: Standard Bluetooth controller (0x00) Version 2.7 Build 99[0m
+2022-03-24 19:26:13.747455|[00:00:00.403,472] [0m<inf> bt_hci_core: Identity: E4:F9:79:2F:BF:9B (random)[0m
+2022-03-24 19:26:13.755582|[00:00:00.403,503] [0m<inf> bt_hci_core: HCI: version 5.3 (0x0c) revision 0x0000, manufacturer 0x05f1[0m
+2022-03-24 19:26:13.765833|[00:00:00.403,503] [0m<inf> bt_hci_core: LMP: version 5.3 (0x0c) subver 0xffff[0m
+2022-03-24 19:26:13.772662|[00:00:00.405,883] [0m<inf> bt_mesh_prov_device: Device UUID: 00000000-0000-0000-b5c6-9246b360cd33[0m
+2022-03-24 19:26:13.782953|[00:00:00.413,970] [0m<inf> bt_mesh_main: Primary Element: 0x4d33[0m
+2022-03-24 19:26:13.790359|[00:00:00.413,970] [0m<dbg> bt_mesh_main.bt_mesh_provision: net_idx 0x0000 flags 0x00 iv_index 0x0000[0m
+2022-03-24 19:26:13.864762|seq: 0
+2022-03-24 19:26:15.883752|seq: 1
+2022-03-24 19:26:16.361180|[00:00:02.340,637] [1;33m<wrn> bt_mesh_transport: Replay: src 0x54e5 dst 0xffff seq 0x000008[0m
+2022-03-24 19:26:16.370181|[00:00:03.127,624] [1;33m<wrn> bt_mesh_transport: Replay: src 0x54e5 dst 0xffff seq 0x000009[0m
+2022-03-24 19:26:19.791240|[00:00:05.770,965] [1;33m<wrn> bt_mesh_transport: Replay: src 0x54e5 dst 0xffff seq 0x000018[0m
+2022-03-24 19:26:21.819606|[00:00:07.798,858] [1;33m<wrn> bt_mesh_transport: Replay: src 0x54e5 dst 0xffff seq 0x00001f[0m
+2022-03-24 19:26:23.568688|[00:00:09.547,973] [1;33m<wrn> bt_mesh_transport: Duplicate SDU from src 0x54e5[0m
+2022-03-24 19:26:23.576447|[00:00:10.320,892] [1;33m<wrn> bt_mesh_transport: Duplicate SDU from src 0x54e5[0m
+2022-03-24 19:26:25.145284|[00:00:11.124,572] [1;33m<wrn> bt_mesh_transport: Duplicate SDU from src 0x54e5[0m
+2022-03-24 19:26:25.153518|[00:00:11.953,765] [1;33m<wrn> bt_mesh_transport: Duplicate SDU from src 0x54e5[0m
+2022-03-24 19:26:27.288770|[00:00:13.267,944] [1;33m<wrn> bt_mesh_transport: Replay: src 0x54e5 dst 0xffff seq 0x00002a[0m
+2022-03-24 19:26:27.297271|[00:00:13.564,575] [1;33m<wrn> bt_mesh_transport: Duplicate SDU from src 0x54e5[0m
+2022-03-24 19:26:29.629470|[00:00:15.608,612] [1;33m<wrn> bt_mesh_transport: Duplicate SDU from src 0x54e5[0m
+2022-03-24 19:26:30.724858|seq: 111
+2022-03-24 19:26:31.464398|[00:00:17.442,993] [1;33m<wrn> bt_mesh_transport: Duplicate SDU from src 0x54e5[0m
+2022-03-24 19:26:32.987326|[00:00:18.967,132] [1;33m<wrn> bt_mesh_transport: Replay: src 0x54e5 dst 0xffff seq 0x000059[0m
+2022-03-24 19:26:32.996950|[00:00:19.790,283] [1;33m<wrn> bt_mesh_transport: Replay: src 0x54e5 dst 0xffff seq 0x00006c[0m
+2022-03-24 19:26:35.389528|[00:00:21.367,767] [1;33m<wrn> bt_mesh_transport: Replay: src 0x54e5 dst 0xffff seq 0x00006e[0m
+2022-03-24 19:26:35.398334|[00:00:21.661,376] [1;33m<wrn> bt_mesh_transport: Duplicate SDU from src 0x54e5[0m
+2022-03-24 19:26:35.406499|[00:00:22.200,134] [1;33m<wrn> bt_mesh_transport: Ignoring old SeqAuth[0m
+2022-03-24 19:26:36.051537|seq: 166
+2022-03-24 19:26:36.745837|[00:00:22.724,426] [1;33m<wrn> bt_mesh_transport: Duplicate SDU from src 0x54e5[0m
+2022-03-24 19:26:36.753339|[00:00:23.319,366] [1;33m<wrn> bt_mesh_transport: Replay: src 0x54e5 dst 0xffff seq 0x000075[0m
+2022-03-24 19:26:39.410183|[00:00:25.388,854] [1;33m<wrn> bt_mesh_transport: Duplicate SDU from src 0x54e5[0m
+2022-03-24 19:26:39.417941|[00:00:26.228,485] [1;33m<wrn> bt_mesh_transport: Duplicate SDU from src 0x54e5[0m
+2022-03-24 19:26:39.738608|seq: 199
+2022-03-24 19:26:43.007706|[00:00:28.985,504] [1;33m<wrn> bt_mesh_transport: Duplicate SDU from src 0x54e5[0m
+2022-03-24 19:26:43.014778|[00:00:29.298,522] [1;33m<wrn> bt_mesh_transport: Ignoring old SeqAuth[0m
+2022-03-24 19:26:43.022538|[00:00:29.584,014] [1;33m<wrn> bt_mesh_transport: Duplicate SDU from src 0x54e5[0m
+2022-03-24 19:26:43.428152|seq: 232
+2022-03-24 19:26:45.345784|[00:00:31.324,157] [1;33m<wrn> bt_mesh_transport: Replay: src 0x54e5 dst 0xffff seq 0x0000e0[0m
+2022-03-24 19:26:48.038055|[00:00:34.015,808] [1;33m<wrn> bt_mesh_transport: Duplicate SDU from src 0x54e5[0m
+2022-03-24 19:26:48.045493|[00:00:34.321,105] [1;33m<wrn> bt_mesh_transport: Ignoring old SeqAuth[0m
+2022-03-24 19:26:49.110259|[00:00:35.088,836] [1;33m<wrn> bt_mesh_transport: Duplicate SDU from src 0x54e5[0m
+2022-03-24 19:26:49.535384|seq: 298
+2022-03-24 19:26:50.131833|[00:00:36.109,588] [1;33m<wrn> bt_mesh_transport: Duplicate SDU from src 0x54e5[0m
+2022-03-24 19:26:51.676277|seq: 320
+2022-03-24 19:26:52.176502|[00:00:38.153,869] [1;33m<wrn> bt_mesh_transport: Duplicate SDU from src 0x54e5[0m
+2022-03-24 19:26:57.539990|seq: 375
+2022-03-24 19:26:58.253270|[00:00:44.231,079] [1;33m<wrn> bt_mesh_transport: Duplicate SDU from src 0x54e5[0m
+2022-03-24 19:26:59.884361|[00:00:45.862,121] [1;33m<wrn> bt_mesh_transport: Replay: src 0x54e5 dst 0xffff seq 0x000141[0m
+2022-03-24 19:27:02.248929|seq: 419
+2022-03-24 19:27:02.321220|[00:00:48.298,431] [1;33m<wrn> bt_mesh_transport: Replay: src 0x54e5 dst 0xffff seq 0x00013e[0m
+2022-03-24 19:27:02.329442|[00:00:48.592,834] [1;33m<wrn> bt_mesh_transport: Replay: src 0x54e5 dst 0xffff seq 0x000162[0m
+2022-03-24 19:27:04.082340|[00:00:50.059,478] [1;33m<wrn> bt_mesh_transport: Replay: src 0x54e5 dst 0xffff seq 0x000183[0m
+2022-03-24 19:27:04.090310|[00:00:50.606,353] [1;33m<wrn> bt_mesh_transport: Duplicate SDU from src 0x54e5[0m
+2022-03-24 19:27:05.627207|seq: 452
+2022-03-24 19:27:08.713556|[00:00:54.691,619] [1;33m<wrn> bt_mesh_transport: Replay: src 0x54e5 dst 0xffff seq 0x0001a9[0m
+2022-03-24 19:27:08.721670|[00:00:54.903,808] [1;33m<wrn> bt_mesh_transport: Replay: src 0x54e5 dst 0xffff seq 0x000196[0m
+2022-03-24 19:27:08.731127|[00:00:55.164,916] [1;33m<wrn> bt_mesh_transport: Replay: src 0x54e5 dst 0xffff seq 0x00018d[0m
+2022-03-24 19:27:09.583953|seq: 496
+2022-03-24 19:27:10.322368|[00:00:56.300,781] [1;33m<wrn> bt_mesh_transport: Duplicate SDU from src 0x54e5[0m
+2022-03-24 19:27:12.747006|[00:00:58.725,372] [1;33m<wrn> bt_mesh_transport: Replay: src 0x54e5 dst 0xffff seq 0x0001a9[0m
+2022-03-24 19:27:13.906007|[00:00:59.883,453] [1;33m<wrn> bt_mesh_transport: Replay: src 0x54e5 dst 0xffff seq 0x0001bf[0m
+2022-03-24 19:27:13.914058|[00:01:00.434,661] [1;33m<wrn> bt_mesh_transport: Duplicate SDU from src 0x54e5[0m
+2022-03-24 19:27:15.504880|[00:01:01.483,184] [1;33m<wrn> bt_mesh_transport: Duplicate SDU from src 0x54e5[0m
+2022-03-24 19:27:15.859011|seq: 562
+2022-03-24 19:27:16.588246|[00:01:02.566,375] [1;33m<wrn> bt_mesh_transport: Duplicate SDU from src 0x54e5[0m
+2022-03-24 19:27:17.849547|[00:01:03.828,430] [1;33m<wrn> bt_mesh_transport: Replay: src 0x54e5 dst 0xffff seq 0x0001ec[0m
+2022-03-24 19:27:17.860482|[00:01:04.110,412] [1;33m<wrn> bt_mesh_transport: Replay: src 0x54e5 dst 0xffff seq 0x0001d8[0m
+2022-03-24 19:27:17.869586|[00:01:04.567,657] [1;33m<wrn> bt_mesh_transport: Replay: src 0x54e5 dst 0xffff seq 0x0001f0[0m
+2022-03-24 19:27:19.684832|[00:01:05.661,804] [1;33m<wrn> bt_mesh_transport: Replay: src 0x54e5 dst 0xffff seq 0x0001cf[0m
+2022-03-24 19:27:19.692876|[00:01:06.165,069] [1;33m<wrn> bt_mesh_transport: Replay: src 0x54e5 dst 0xffff seq 0x0001e7[0m
+2022-03-24 19:27:21.296808|[00:01:07.273,742] [1;33m<wrn> bt_mesh_transport: Duplicate SDU from src 0x54e5[0m
+2022-03-24 19:27:21.303816|[00:01:08.071,441] [1;33m<wrn> bt_mesh_transport: Duplicate SDU from src 0x54e5[0m
+2022-03-24 19:27:22.379270|[00:01:08.355,651] [1;33m<wrn> bt_mesh_transport: Ignoring old SeqAuth[0m
+2022-03-24 19:27:22.384758|[00:01:08.591,705] [1;33m<wrn> bt_mesh_transport: Ignoring old SeqAuth[0m
+2022-03-24 19:27:22.391369|[00:01:08.903,656] [1;33m<wrn> bt_mesh_transport: Replay: src 0x54e5 dst 0xffff seq 0x0001e9[0m
+2022-03-24 19:27:22.400791|[00:01:09.173,217] [1;33m<wrn> bt_mesh_transport: Ignoring old SeqAuth[0m
+2022-03-24 19:27:23.457064|[00:01:09.435,089] [1;33m<wrn> bt_mesh_transport: Ignoring old SeqAuth[0m
+2022-03-24 19:27:23.464349|[00:01:09.721,954] [1;33m<wrn> bt_mesh_transport: Duplicate SDU from src 0x54e5[0m
+2022-03-24 19:27:23.471599|[00:01:10.014,617] [1;33m<wrn> bt_mesh_transport: Ignoring old SeqAuth[0m
+2022-03-24 19:27:23.479337|[00:01:10.322,021] [1;33m<wrn> bt_mesh_transport: Ignoring old SeqAuth[0m
+2022-03-24 19:27:26.811237|[00:01:12.789,001] [1;33m<wrn> bt_mesh_transport: Duplicate SDU from src 0x54e5[0m
+2022-03-24 19:27:26.818259|[00:01:13.567,382] [1;33m<wrn> bt_mesh_transport: Ignoring old SeqAuth[0m
+2022-03-24 19:27:28.345664|[00:01:14.323,516] [1;33m<wrn> bt_mesh_transport: Duplicate SDU from src 0x54e5[0m
+2022-03-24 19:27:28.353603|[00:01:14.901,550] [1;33m<wrn> bt_mesh_transport: Duplicate SDU from src 0x54e5[0m
+2022-03-24 19:27:29.878763|[00:01:15.856,109] [1;33m<wrn> bt_mesh_transport: Duplicate SDU from src 0x54e5[0m
+2022-03-24 19:27:30.431878|seq: 705
+2022-03-24 19:27:31.065270|[00:01:17.043,121] [1;33m<wrn> bt_mesh_transport: Duplicate SDU from src 0x54e5[0m
+2022-03-24 19:27:32.469633|seq: 727
+2022-03-24 19:27:32.624888|[00:01:18.602,355] [1;33m<wrn> bt_mesh_transport: Replay: src 0x54e5 dst 0xffff seq 0x00026c[0m
+2022-03-24 19:27:32.632955|[00:01:18.892,089] [1;33m<wrn> bt_mesh_transport: Ignoring old SeqAuth[0m
+2022-03-24 19:27:32.639614|[00:01:19.150,756] [1;33m<wrn> bt_mesh_transport: Duplicate SDU from src 0x54e5[0m
+2022-03-24 19:27:33.844487|[00:01:19.822,326] [1;33m<wrn> bt_mesh_transport: Replay: src 0x54e5 dst 0xffff seq 0x000262[0m
+2022-03-24 19:27:33.853102|[00:01:20.272,583] [1;33m<wrn> bt_mesh_transport: Replay: src 0x54e5 dst 0xffff seq 0x00025b[0m
+2022-03-24 19:27:36.217344|[00:01:22.195,343] [1;33m<wrn> bt_mesh_transport: Ignoring old SeqAuth[0m
+2022-03-24 19:27:36.223882|[00:01:22.466,735] [1;33m<wrn> bt_mesh_transport: Duplicate SDU from src 0x54e5[0m
+2022-03-24 19:27:36.231618|[00:01:22.751,251] [1;33m<wrn> bt_mesh_transport: Replay: src 0x54e5 dst 0xffff seq 0x000286[0m
+2022-03-24 19:27:37.488485|[00:01:23.465,881] [1;33m<wrn> bt_mesh_transport: Duplicate SDU from src 0x54e5[0m
+2022-03-24 19:27:38.537555|[00:01:24.514,587] [1;33m<wrn> bt_mesh_transport: Ignoring old SeqAuth[0m
+2022-03-24 19:27:38.544516|[00:01:25.271,118] [1;33m<wrn> bt_mesh_transport: Ignoring old SeqAuth[0m
+2022-03-24 19:27:39.844362|[00:01:25.821,868] [1;33m<wrn> bt_mesh_transport: Duplicate SDU from src 0x54e5[0m
+2022-03-24 19:27:39.851540|[00:01:26.479,064] [1;33m<wrn> bt_mesh_transport: Ignoring old SeqAuth[0m
+2022-03-24 19:27:41.184308|[00:01:27.161,926] [1;33m<wrn> bt_mesh_transport: Duplicate SDU from src 0x54e5[0m
+2022-03-24 19:27:41.192437|[00:01:27.869,628] [1;33m<wrn> bt_mesh_transport: Duplicate SDU from src 0x54e5[0m
+2022-03-24 19:27:44.109538|[00:01:30.086,120] [1;33m<wrn> bt_mesh_transport: Duplicate SDU from src 0x54e5[0m
+2022-03-24 19:27:46.393383|[00:01:32.370,208] [1;33m<wrn> bt_mesh_transport: Duplicate SDU from src 0x54e5[0m
+2022-03-24 19:27:47.204436|seq: 870
+2022-03-24 19:27:47.573634|[00:01:33.550,659] [1;33m<wrn> bt_mesh_transport: Duplicate SDU from src 0x54e5[0m
+2022-03-24 19:27:47.581160|[00:01:33.897,033] [1;33m<wrn> bt_mesh_transport: Replay: src 0x54e5 dst 0xffff seq 0x0002cb[0m
+2022-03-24 19:27:47.591018|[00:01:34.444,152] [1;33m<wrn> bt_mesh_transport: Replay: src 0x54e5 dst 0xffff seq 0x0002d2[0m
+2022-03-24 19:27:49.046451|seq: 892
+2022-03-24 19:27:49.797267|[00:01:35.773,651] [1;33m<wrn> bt_mesh_transport: Duplicate SDU from src 0x54e5[0m
+2022-03-24 19:27:53.320361|seq: 936
+2022-03-24 19:27:53.490024|[00:01:39.467,163] [1;33m<wrn> bt_mesh_transport: Replay: src 0x54e5 dst 0xffff seq 0x000318[0m
+2022-03-24 19:27:53.498712|[00:01:39.752,929] [1;33m<wrn> bt_mesh_transport: Duplicate SDU from src 0x54e5[0m
+2022-03-24 19:27:53.505667|[00:01:40.072,967] [1;33m<wrn> bt_mesh_transport: Replay: src 0x54e5 dst 0xffff seq 0x000305[0m
+2022-03-24 19:27:55.164905|[00:01:41.140,869] [1;33m<wrn> bt_mesh_transport: Replay: src 0x54e5 dst 0xffff seq 0x000324[0m
+2022-03-24 19:27:55.172210|[00:01:41.842,315] [1;33m<wrn> bt_mesh_transport: Duplicate SDU from src 0x54e5[0m
+2022-03-24 19:27:58.118592|seq: 980
+2022-03-24 19:27:58.484687|[00:01:44.461,456] [1;33m<wrn> bt_mesh_transport: Duplicate SDU from src 0x54e5[0m
+2022-03-24 19:28:01.462964|[00:01:47.439,453] [1;33m<wrn> bt_mesh_transport: Ignoring old SeqAuth[0m
+2022-03-24 19:28:01.468520|[00:01:47.711,364] [1;33m<wrn> bt_mesh_transport: Duplicate SDU from src 0x54e5[0m
+2022-03-24 19:28:02.149035|seq: 1024
+2022-03-24 19:28:03.945589|[00:01:49.921,722] [1;33m<wrn> bt_mesh_transport: Replay: src 0x54e5 dst 0xffff seq 0x00034f[0m
+2022-03-24 19:28:03.953454|[00:01:50.212,127] [1;33m<wrn> bt_mesh_transport: Replay: src 0x54e5 dst 0xffff seq 0x000350[0m
+2022-03-24 19:28:05.040839|[00:01:51.017,730] [1;33m<wrn> bt_mesh_transport: Duplicate SDU from src 0x54e5[0m
+2022-03-24 19:28:05.048320|[00:01:51.803,558] [1;33m<wrn> bt_mesh_transport: Ignoring old SeqAuth[0m
+2022-03-24 19:28:06.096503|[00:01:52.073,944] [1;33m<wrn> bt_mesh_transport: Ignoring old SeqAuth[0m
+2022-03-24 19:28:06.103410|[00:01:52.347,503] [1;33m<wrn> bt_mesh_transport: Duplicate SDU from src 0x54e5[0m
+2022-03-24 19:28:06.110955|[00:01:52.693,145] [1;33m<wrn> bt_mesh_transport: Ignoring old SeqAuth[0m
+2022-03-24 19:28:06.118288|[00:01:52.933,776] [1;33m<wrn> bt_mesh_transport: Ignoring old SeqAuth[0m
+2022-03-24 19:28:06.533020|seq: 1068
+2022-03-24 19:28:07.228413|[00:01:53.206,573] [1;33m<wrn> bt_mesh_transport: Duplicate SDU from src 0x54e5[0m
+2022-03-24 19:28:08.415234|[00:01:54.393,066] [1;33m<wrn> bt_mesh_transport: Replay: src 0x54e5 dst 0xffff seq 0x000367[0m
+2022-03-24 19:28:09.943029|[00:01:55.919,769] [1;33m<wrn> bt_mesh_transport: Duplicate SDU from src 0x54e5[0m
+2022-03-24 19:28:09.950618|[00:01:56.509,887] [1;33m<wrn> bt_mesh_transport: Duplicate SDU from src 0x54e5[0m
+2022-03-24 19:28:09.958485|[00:01:56.772,521] [1;33m<wrn> bt_mesh_transport: Ignoring old SeqAuth[0m
+2022-03-24 19:28:12.117263|[00:01:58.093,505] [1;33m<wrn> bt_mesh_transport: Duplicate SDU from src 0x54e5[0m
+2022-03-24 19:28:13.143625|[00:01:59.120,117] [1;33m<wrn> bt_mesh_transport: Duplicate SDU from src 0x54e5[0m
+2022-03-24 19:28:13.150397|[00:01:59.944,854] [1;33m<wrn> bt_mesh_transport: Ignoring old SeqAuth[0m
+2022-03-24 19:28:14.231201|[00:02:00.208,343] [1;33m<wrn> bt_mesh_transport: Duplicate SDU from src 0x54e5[0m
+2022-03-24 19:28:14.238453|[00:02:01.034,851] [1;33m<wrn> bt_mesh_transport: Duplicate SDU from src 0x54e5[0m
+2022-03-24 19:28:14.320678|seq: 1145
+2022-03-24 19:28:16.135603|[00:02:02.111,999] [1;33m<wrn> bt_mesh_transport: Replay: src 0x54e5 dst 0xffff seq 0x0003c7[0m
+2022-03-24 19:28:16.144063|[00:02:02.467,590] [1;33m<wrn> bt_mesh_transport: Replay: src 0x54e5 dst 0xffff seq 0x0003cc[0m
+2022-03-24 19:28:16.153220|[00:02:02.771,301] [1;33m<wrn> bt_mesh_transport: Replay: src 0x54e5 dst 0xffff seq 0x0003b9[0m
+2022-03-24 19:28:18.302770|seq: 1178
+2022-03-24 19:28:18.455585|[00:02:04.432,464] [1;33m<wrn> bt_mesh_transport: Ignoring old SeqAuth[0m
+2022-03-24 19:28:18.462608|[00:02:04.720,092] [1;33m<wrn> bt_mesh_transport: Ignoring old SeqAuth[0m
+2022-03-24 19:28:18.469698|[00:02:05.000,885] [1;33m<wrn> bt_mesh_transport: Duplicate SDU from src 0x54e5[0m
+2022-03-24 19:28:19.564107|[00:02:05.541,564] [1;33m<wrn> bt_mesh_transport: Replay: src 0x54e5 dst 0xffff seq 0x0003e1[0m
+2022-03-24 19:28:19.573547|[00:02:06.471,893] [1;33m<wrn> bt_mesh_transport: Duplicate SDU from src 0x54e5[0m
+2022-03-24 19:28:20.239211|seq: 1200
+2022-03-24 19:28:23.055037|[00:02:09.031,646] [1;33m<wrn> bt_mesh_transport: Replay: src 0x54e5 dst 0xffff seq 0x00040a[0m
+2022-03-24 19:28:23.062774|[00:02:09.571,502] [1;33m<wrn> bt_mesh_transport: Replay: src 0x54e5 dst 0xffff seq 0x000405[0m
+2022-03-24 19:28:25.498244|[00:02:11.474,090] [1;33m<wrn> bt_mesh_transport: Duplicate SDU from src 0x54e5[0m
+2022-03-24 19:28:25.505367|[00:02:11.960,906] [1;33m<wrn> bt_mesh_transport: Duplicate SDU from src 0x54e5[0m
+2022-03-24 19:28:27.018292|[00:02:12.994,598] [1;33m<wrn> bt_mesh_transport: Duplicate SDU from src 0x54e5[0m
+2022-03-24 19:28:27.408548|seq: 1277
+2022-03-24 19:28:28.123012|[00:02:14.099,853] [1;33m<wrn> bt_mesh_transport: Duplicate SDU from src 0x54e5[0m
+2022-03-24 19:28:29.168567|seq: 1288
+2022-03-24 19:28:32.566927|[00:02:18.543,670] [1;33m<wrn> bt_mesh_transport: Replay: src 0x54e5 dst 0xffff seq 0x00044e[0m
+2022-03-24 19:28:32.575837|[00:02:18.775,726] [1;33m<wrn> bt_mesh_transport: Replay: src 0x54e5 dst 0xffff seq 0x000451[0m
+2022-03-24 19:28:32.585057|[00:02:19.041,351] [1;33m<wrn> bt_mesh_transport: Replay: src 0x54e5 dst 0xffff seq 0x000453[0m
+2022-03-24 19:28:34.439222|[00:02:20.415,161] [1;33m<wrn> bt_mesh_transport: Ignoring old SeqAuth[0m
+2022-03-24 19:28:34.445439|[00:02:20.756,042] [1;33m<wrn> bt_mesh_transport: Duplicate SDU from src 0x54e5[0m
+2022-03-24 19:28:35.893092|[00:02:21.868,804] [1;33m<wrn> bt_mesh_transport: Duplicate SDU from src 0x54e5[0m
+2022-03-24 19:28:35.900370|[00:02:22.197,021] [1;33m<wrn> bt_mesh_transport: Replay: src 0x54e5 dst 0xffff seq 0x000456[0m
+2022-03-24 19:28:37.495170|[00:02:23.471,649] [1;33m<wrn> bt_mesh_transport: Duplicate SDU from src 0x54e5[0m
+2022-03-24 19:28:37.502538|[00:02:24.055,023] [1;33m<wrn> bt_mesh_transport: Duplicate SDU from src 0x54e5[0m
+2022-03-24 19:28:40.703923|[00:02:26.680,816] [1;33m<wrn> bt_mesh_transport: Duplicate SDU from src 0x54e5[0m
+2022-03-24 19:28:40.710628|[00:02:27.344,635] [1;33m<wrn> bt_mesh_transport: Duplicate SDU from src 0x54e5[0m
+2022-03-24 19:28:43.159270|[00:02:29.136,138] [1;33m<wrn> bt_mesh_transport: Replay: src 0x54e5 dst 0xffff seq 0x0004ad[0m
+2022-03-24 19:28:43.168152|[00:02:29.424,926] [1;33m<wrn> bt_mesh_transport: Replay: src 0x54e5 dst 0xffff seq 0x000477[0m
+2022-03-24 19:28:43.177307|[00:02:29.724,975] [1;33m<wrn> bt_mesh_transport: Replay: src 0x54e5 dst 0xffff seq 0x0004a8[0m
+2022-03-24 19:28:43.186983|[00:02:30.035,522] [1;33m<wrn> bt_mesh_transport: Duplicate SDU from src 0x54e5[0m
+2022-03-24 19:28:43.340460|seq: 1431
+2022-03-24 19:28:44.645266|[00:02:30.621,582] [1;33m<wrn> bt_mesh_transport: Replay: src 0x54e5 dst 0xffff seq 0x0004b9[0m
+2022-03-24 19:28:45.686676|[00:02:31.662,719] [1;33m<wrn> bt_mesh_transport: Duplicate SDU from src 0x54e5[0m
+2022-03-24 19:28:47.185203|[00:02:33.161,132] [1;33m<wrn> bt_mesh_transport: Duplicate SDU from src 0x54e5[0m
+2022-03-24 19:28:47.191583|[00:02:34.001,220] [1;33m<wrn> bt_mesh_transport: Duplicate SDU from src 0x54e5[0m
+2022-03-24 19:28:47.582347|seq: 1475
+2022-03-24 19:28:49.421591|[00:02:35.397,583] [1;33m<wrn> bt_mesh_transport: Replay: src 0x54e5 dst 0xffff seq 0x0004e1[0m
+2022-03-24 19:28:52.252850|[00:02:38.229,400] [1;33m<wrn> bt_mesh_transport: Duplicate SDU from src 0x54e5[0m
+2022-03-24 19:28:52.260296|[00:02:39.227,142] [1;33m<wrn> bt_mesh_transport: Duplicate SDU from src 0x54e5[0m
+2022-03-24 19:28:52.543372|seq: 1530
+2022-03-24 19:28:56.711167|[00:02:42.686,279] [1;33m<wrn> bt_mesh_transport: Duplicate SDU from src 0x54e5[0m
+2022-03-24 19:28:56.719064|[00:02:43.691,772] [1;33m<wrn> bt_mesh_transport: Ignoring old SeqAuth[0m
+2022-03-24 19:28:58.287446|[00:02:44.263,916] [1;33m<wrn> bt_mesh_transport: Ignoring old SeqAuth[0m
+2022-03-24 19:28:58.293646|[00:02:44.525,390] [1;33m<wrn> bt_mesh_transport: Ignoring old SeqAuth[0m
+2022-03-24 19:28:58.300883|[00:02:44.797,790] [1;33m<wrn> bt_mesh_transport: Replay: src 0x54e5 dst 0xffff seq 0x000510[0m
+2022-03-24 19:28:58.313525|[00:02:45.287,017] [1;33m<wrn> bt_mesh_transport: Duplicate SDU from src 0x54e5[0m
+2022-03-24 19:28:58.711621|seq: 1585
+2022-03-24 19:28:59.460422|seq: 1596
+2022-03-24 19:29:01.233742|[00:02:47.209,106] [1;33m<wrn> bt_mesh_transport: Replay: src 0x54e5 dst 0xffff seq 0x000541[0m
+2022-03-24 19:29:01.241407|[00:02:48.196,014] [1;33m<wrn> bt_mesh_transport: Duplicate SDU from src 0x54e5[0m
+2022-03-24 19:29:03.496617|[00:02:49.472,961] [1;33m<wrn> bt_mesh_transport: Duplicate SDU from src 0x54e5[0m
+2022-03-24 19:29:04.018244|seq: 1640
+2022-03-24 19:29:06.657937|[00:02:52.633,483] [1;33m<wrn> bt_mesh_transport: Duplicate SDU from src 0x54e5[0m
+2022-03-24 19:29:08.917698|[00:02:54.893,768] [1;33m<wrn> bt_mesh_transport: Duplicate SDU from src 0x54e5[0m
+2022-03-24 19:29:09.495177|seq: 1695
+2022-03-24 19:29:10.026365|[00:02:56.002,563] [1;33m<wrn> bt_mesh_transport: Duplicate SDU from src 0x54e5[0m
+2022-03-24 19:29:10.034412|[00:02:56.775,360] [1;33m<wrn> bt_mesh_transport: Replay: src 0x54e5 dst 0xffff seq 0x000590[0m
+2022-03-24 19:29:11.112636|[00:02:57.087,646] [1;33m<wrn> bt_mesh_transport: Replay: src 0x54e5 dst 0xffff seq 0x000592[0m
+2022-03-24 19:29:12.435921|[00:02:58.411,651] [1;33m<wrn> bt_mesh_transport: Duplicate SDU from src 0x54e5[0m
+2022-03-24 19:29:12.443529|[00:02:59.265,472] [1;33m<wrn> bt_mesh_transport: Duplicate SDU from src 0x54e5[0m
+2022-03-24 19:29:14.101404|seq: 1739
+2022-03-24 19:29:14.254588|[00:03:00.230,316] [1;33m<wrn> bt_mesh_transport: Duplicate SDU from src 0x54e5[0m
+2022-03-24 19:29:14.262250|[00:03:00.805,633] [1;33m<wrn> bt_mesh_transport: Replay: src 0x54e5 dst 0xffff seq 0x000596[0m
+2022-03-24 19:29:16.591025|[00:03:02.566,589] [1;33m<wrn> bt_mesh_transport: Duplicate SDU from src 0x54e5[0m
+2022-03-24 19:29:16.598713|[00:03:02.843,719] [1;33m<wrn> bt_mesh_transport: Ignoring old SeqAuth[0m
+2022-03-24 19:29:19.401448|[00:03:05.377,288] [1;33m<wrn> bt_mesh_transport: Ignoring old SeqAuth[0m
+2022-03-24 19:29:19.408652|[00:03:05.933,227] [1;33m<wrn> bt_mesh_transport: Duplicate SDU from src 0x54e5[0m
+2022-03-24 19:29:20.762828|[00:03:06.738,616] [1;33m<wrn> bt_mesh_transport: Replay: src 0x54e5 dst 0xffff seq 0x0005b8[0m
+2022-03-24 19:29:20.771018|[00:03:07.276,885] [1;33m<wrn> bt_mesh_transport: Duplicate SDU from src 0x54e5[0m
+2022-03-24 19:29:20.864314|seq: 1805
+2022-03-24 19:29:21.561166|seq: 1816
+2022-03-24 19:29:25.007981|[00:03:10.984,069] [1;33m<wrn> bt_mesh_transport: Replay: src 0x54e5 dst 0xffff seq 0x000604[0m
+2022-03-24 19:29:25.019310|[00:03:11.395,965] [1;33m<wrn> bt_mesh_transport: Replay: src 0x54e5 dst 0xffff seq 0x000600[0m
+2022-03-24 19:29:27.582869|[00:03:13.557,861] [1;33m<wrn> bt_mesh_transport: Duplicate SDU from src 0x54e5[0m
+2022-03-24 19:29:27.589770|[00:03:14.080,688] [1;33m<wrn> bt_mesh_transport: Ignoring old SeqAuth[0m
+2022-03-24 19:29:28.227873|seq: 1882
+2022-03-24 19:29:28.908408|[00:03:14.884,124] [1;33m<wrn> bt_mesh_transport: Duplicate SDU from src 0x54e5[0m
+2022-03-24 19:29:31.364667|seq: 1915
+2022-03-24 19:29:31.368120|[00:03:17.343,322] [1;33m<wrn> bt_mesh_transport: Replay: src 0x54e5 dst 0xffff seq 0x000603[0m
+2022-03-24 19:29:31.376350|[00:03:17.809,234] [1;33m<wrn> bt_mesh_transport: Duplicate SDU from src 0x54e5[0m
+2022-03-24 19:29:32.626690|[00:03:18.601,684] [1;33m<wrn> bt_mesh_transport: Replay: src 0x54e5 dst 0xffff seq 0x000621[0m
+2022-03-24 19:29:34.893753|[00:03:20.869,415] [1;33m<wrn> bt_mesh_transport: Ignoring old SeqAuth[0m
+2022-03-24 19:29:34.899962|[00:03:21.422,363] [1;33m<wrn> bt_mesh_transport: Duplicate SDU from src 0x54e5[0m
+2022-03-24 19:29:36.527658|[00:03:22.503,204] [1;33m<wrn> bt_mesh_transport: Ignoring old SeqAuth[0m
+2022-03-24 19:29:36.533825|[00:03:23.333,343] [1;33m<wrn> bt_mesh_transport: Duplicate SDU from src 0x54e5[0m
+2022-03-24 19:29:38.252988|[00:03:24.228,546] [1;33m<wrn> bt_mesh_transport: Duplicate SDU from src 0x54e5[0m
+2022-03-24 19:29:38.260400|[00:03:24.543,792] [1;33m<wrn> bt_mesh_transport: Duplicate SDU from src 0x54e5[0m
+2022-03-24 19:29:38.269182|[00:03:24.824,340] [1;33m<wrn> bt_mesh_transport: Ignoring old SeqAuth[0m
+2022-03-24 19:29:38.275297|[00:03:25.085,906] [1;33m<wrn> bt_mesh_transport: Ignoring old SeqAuth[0m
+2022-03-24 19:29:38.416479|seq: 1981
+2022-03-24 19:29:39.700022|[00:03:25.675,292] [1;33m<wrn> bt_mesh_transport: Replay: src 0x54e5 dst 0xffff seq 0x00067c[0m
+2022-03-24 19:29:40.222148|seq: 2003
+2022-03-24 19:29:40.715850|[00:03:26.690,460] [1;33m<wrn> bt_mesh_transport: Duplicate SDU from src 0x54e5[0m
+2022-03-24 19:29:41.810928|[00:03:27.786,499] [1;33m<wrn> bt_mesh_transport: Replay: src 0x54e5 dst 0xffff seq 0x000684[0m
+2022-03-24 19:29:43.291848|[00:03:29.267,578] [1;33m<wrn> bt_mesh_transport: Duplicate SDU from src 0x54e5[0m
+2022-03-24 19:29:43.301448|[00:03:30.010,131] [1;33m<wrn> bt_mesh_transport: Duplicate SDU from src 0x54e5[0m
+2022-03-24 19:29:44.849193|[00:03:30.824,615] [1;33m<wrn> bt_mesh_transport: Replay: src 0x54e5 dst 0xffff seq 0x000689[0m
+2022-03-24 19:29:44.858038|[00:03:31.161,987] [1;33m<wrn> bt_mesh_transport: Duplicate SDU from src 0x54e5[0m
+2022-03-24 19:29:44.941449|seq: 2047
+2022-03-24 19:29:47.479061|[00:03:33.453,796] [1;33m<wrn> bt_mesh_transport: Replay: src 0x54e5 dst 0xffff seq 0x0006b4[0m
+2022-03-24 19:29:47.488230|[00:03:33.765,411] [1;33m<wrn> bt_mesh_transport: Replay: src 0x54e5 dst 0xffff seq 0x0006b6[0m
+2022-03-24 19:29:48.064965|seq: 2080
+2022-03-24 19:29:51.652063|[00:03:37.627,410] [1;33m<wrn> bt_mesh_transport: Duplicate SDU from src 0x54e5[0m
+2022-03-24 19:29:52.535401|seq: 2124
+2022-03-24 19:29:52.994346|[00:03:38.969,360] [1;33m<wrn> bt_mesh_transport: Duplicate SDU from src 0x54e5[0m
+2022-03-24 19:29:54.844989|[00:03:40.820,770] [1;33m<wrn> bt_mesh_transport: Duplicate SDU from src 0x54e5[0m
+2022-03-24 19:29:58.258447|seq: 2179
+2022-03-24 19:29:58.508200|[00:03:44.483,001] [1;33m<wrn> bt_mesh_transport: Duplicate SDU from src 0x54e5[0m
+2022-03-24 19:29:59.540431|[00:03:45.515,686] [1;33m<wrn> bt_mesh_transport: Replay: src 0x54e5 dst 0xffff seq 0x000714[0m
+2022-03-24 19:29:59.548447|[00:03:46.050,140] [1;33m<wrn> bt_mesh_transport: Replay: src 0x54e5 dst 0xffff seq 0x000719[0m
+2022-03-24 19:30:01.622889|[00:03:47.598,297] [1;33m<wrn> bt_mesh_transport: Duplicate SDU from src 0x54e5[0m
+2022-03-24 19:30:01.630977|[00:03:47.820,617] [1;33m<wrn> bt_mesh_transport: Replay: src 0x54e5 dst 0xffff seq 0x00070a[0m
+2022-03-24 19:30:01.640118|[00:03:48.422,546] [1;33m<wrn> bt_mesh_transport: Ignoring old SeqAuth[0m
+2022-03-24 19:30:02.442824|seq: 2223
+2022-03-24 19:30:02.692454|[00:03:48.667,175] [1;33m<wrn> bt_mesh_transport: Duplicate SDU from src 0x54e5[0m
+2022-03-24 19:30:04.797770|[00:03:50.772,613] [1;33m<wrn> bt_mesh_transport: Duplicate SDU from src 0x54e5[0m
+2022-03-24 19:30:05.898804|[00:03:51.873,748] [1;33m<wrn> bt_mesh_transport: Duplicate SDU from src 0x54e5[0m
+2022-03-24 19:30:07.000404|[00:03:52.976,348] [1;33m<wrn> bt_mesh_transport: Duplicate SDU from src 0x54e5[0m
+2022-03-24 19:30:07.008330|[00:03:53.912,719] [1;33m<wrn> bt_mesh_transport: Ignoring old SeqAuth[0m
+2022-03-24 19:30:09.579088|[00:03:55.554,351] [1;33m<wrn> bt_mesh_transport: Duplicate SDU from src 0x54e5[0m
+2022-03-24 19:30:09.586973|[00:03:55.847,656] [1;33m<wrn> bt_mesh_transport: Duplicate SDU from src 0x54e5[0m
+2022-03-24 19:30:09.594553|[00:03:56.393,371] [1;33m<wrn> bt_mesh_transport: Duplicate SDU from src 0x54e5[0m
+2022-03-24 19:30:11.258946|[00:03:57.233,886] [1;33m<wrn> bt_mesh_transport: Replay: src 0x54e5 dst 0xffff seq 0x00076e[0m
+2022-03-24 19:30:11.268078|[00:03:57.874,420] [1;33m<wrn> bt_mesh_transport: Replay: src 0x54e5 dst 0xffff seq 0x00077b[0m
+2022-03-24 19:30:12.688238|[00:03:58.663,360] [1;33m<wrn> bt_mesh_transport: Duplicate SDU from src 0x54e5[0m
+2022-03-24 19:30:12.695910|[00:03:59.545,349] [1;33m<wrn> bt_mesh_transport: Replay: src 0x54e5 dst 0xffff seq 0x000771[0m
+2022-03-24 19:30:14.046553|[00:04:00.020,904] [1;33m<wrn> bt_mesh_transport: Duplicate SDU from src 0x54e5[0m
+2022-03-24 19:30:14.054156|[00:04:00.681,304] [1;33m<wrn> bt_mesh_transport: Ignoring old SeqAuth[0m
+2022-03-24 19:30:14.060724|[00:04:00.966,033] [1;33m<wrn> bt_mesh_transport: Duplicate SDU from src 0x54e5[0m
+2022-03-24 19:30:15.809141|[00:04:01.783,905] [1;33m<wrn> bt_mesh_transport: Ignoring old SeqAuth[0m
+2022-03-24 19:30:15.815494|[00:04:02.546,508] [1;33m<wrn> bt_mesh_transport: Ignoring old SeqAuth[0m
+2022-03-24 19:30:16.439130|seq: 2366
+2022-03-24 19:30:16.859577|[00:04:02.834,533] [1;33m<wrn> bt_mesh_transport: Duplicate SDU from src 0x54e5[0m
+2022-03-24 19:30:16.866928|[00:04:03.122,619] [1;33m<wrn> bt_mesh_transport: Duplicate SDU from src 0x54e5[0m
+2022-03-24 19:30:18.483289|[00:04:04.458,221] [1;33m<wrn> bt_mesh_transport: Replay: src 0x54e5 dst 0xffff seq 0x0007b1[0m
+2022-03-24 19:30:18.491368|[00:04:05.026,397] [1;33m<wrn> bt_mesh_transport: Replay: src 0x54e5 dst 0xffff seq 0x0007b3[0m
+2022-03-24 19:30:19.705918|[00:04:05.681,091] [1;33m<wrn> bt_mesh_transport: Replay: src 0x54e5 dst 0xffff seq 0x0007ba[0m
+2022-03-24 19:30:19.715381|[00:04:06.246,978] [1;33m<wrn> bt_mesh_transport: Duplicate SDU from src 0x54e5[0m
+2022-03-24 19:30:19.723087|[00:04:06.545,898] [1;33m<wrn> bt_mesh_transport: Replay: src 0x54e5 dst 0xffff seq 0x000798[0m
+2022-03-24 19:30:21.043984|[00:04:07.018,707] [1;33m<wrn> bt_mesh_transport: Replay: src 0x54e5 dst 0xffff seq 0x0007ad[0m
+2022-03-24 19:30:22.170449|[00:04:08.144,775] [1;33m<wrn> bt_mesh_transport: Ignoring old SeqAuth[0m
+2022-03-24 19:30:22.177174|[00:04:08.590,423] [1;33m<wrn> bt_mesh_transport: Duplicate SDU from src 0x54e5[0m
+2022-03-24 19:30:22.184566|[00:04:08.824,310] [1;33m<wrn> bt_mesh_transport: Ignoring old SeqAuth[0m
+2022-03-24 19:30:22.192391|[00:04:09.123,565] [1;33m<wrn> bt_mesh_transport: Replay: src 0x54e5 dst 0xffff seq 0x0007be[0m
+2022-03-24 19:30:23.423162|[00:04:09.397,521] [1;33m<wrn> bt_mesh_transport: Replay: src 0x54e5 dst 0xffff seq 0x0007b1[0m
+2022-03-24 19:30:23.431821|[00:04:09.958,343] [1;33m<wrn> bt_mesh_transport: Ignoring old SeqAuth[0m
+2022-03-24 19:30:24.981678|[00:04:10.956,054] [1;33m<wrn> bt_mesh_transport: Duplicate SDU from src 0x54e5[0m
+2022-03-24 19:30:26.904631|[00:04:12.879,333] [1;33m<wrn> bt_mesh_transport: Duplicate SDU from src 0x54e5[0m
+2022-03-24 19:30:27.958214|seq: 2476
+2022-03-24 19:30:28.235887|[00:04:14.209,869] [1;33m<wrn> bt_mesh_transport: Duplicate SDU from src 0x54e5[0m
+2022-03-24 19:30:28.242169|[00:04:15.194,824] [1;33m<wrn> bt_mesh_transport: Replay: src 0x54e5 dst 0xffff seq 0x000811[0m
+2022-03-24 19:30:29.778216|[00:04:15.752,655] [1;33m<wrn> bt_mesh_transport: Replay: src 0x54e5 dst 0xffff seq 0x000816[0m
+2022-03-24 19:30:29.786222|[00:04:16.246,948] [1;33m<wrn> bt_mesh_transport: Duplicate SDU from src 0x54e5[0m
+2022-03-24 19:30:31.430575|[00:04:17.405,364] [1;33m<wrn> bt_mesh_transport: Duplicate SDU from src 0x54e5[0m
+2022-03-24 19:30:32.198405|seq: 2520
+2022-03-24 19:30:33.723021|[00:04:19.696,960] [1;33m<wrn> bt_mesh_transport: Replay: src 0x54e5 dst 0xffff seq 0x000823[0m
+2022-03-24 19:30:34.745980|[00:04:20.719,573] [1;33m<wrn> bt_mesh_transport: Replay: src 0x54e5 dst 0xffff seq 0x00083e[0m
+2022-03-24 19:30:34.753292|[00:04:21.001,342] [1;33m<wrn> bt_mesh_transport: Replay: src 0x54e5 dst 0xffff seq 0x000841[0m
+2022-03-24 19:30:36.790349|[00:04:22.765,319] [1;33m<wrn> bt_mesh_transport: Ignoring old SeqAuth[0m
+2022-03-24 19:30:36.797290|[00:04:22.979,583] [1;33m<wrn> bt_mesh_transport: Duplicate SDU from src 0x54e5[0m
+2022-03-24 19:30:37.377113|seq: 2575
+2022-03-24 19:30:37.887907|[00:04:23.861,846] [1;33m<wrn> bt_mesh_transport: Duplicate SDU from src 0x54e5[0m
+2022-03-24 19:30:40.284280|[00:04:26.259,490] [1;33m<wrn> bt_mesh_transport: Replay: src 0x54e5 dst 0xffff seq 0x000856[0m
+2022-03-24 19:30:41.215823|seq: 2608
+2022-03-24 19:30:41.553006|[00:04:27.527,099] [1;33m<wrn> bt_mesh_transport: Replay: src 0x54e5 dst 0xffff seq 0x000857[0m
+2022-03-24 19:30:43.007173|[00:04:28.982,604] [1;33m<wrn> bt_mesh_transport: Replay: src 0x54e5 dst 0xffff seq 0x000881[0m
+2022-03-24 19:30:43.016690|[00:04:29.244,506] [1;33m<wrn> bt_mesh_transport: Replay: src 0x54e5 dst 0xffff seq 0x000878[0m
+2022-03-24 19:30:43.025726|[00:04:29.506,225] [1;33m<wrn> bt_mesh_transport: Duplicate SDU from src 0x54e5[0m
+2022-03-24 19:30:45.101722|[00:04:31.077,606] [1;33m<wrn> bt_mesh_transport: Replay: src 0x54e5 dst 0xffff seq 0x00087f[0m
+2022-03-24 19:30:46.521311|[00:04:32.496,276] [1;33m<wrn> bt_mesh_transport: Ignoring old SeqAuth[0m
+2022-03-24 19:30:46.528317|[00:04:32.779,968] [1;33m<wrn> bt_mesh_transport: Duplicate SDU from src 0x54e5[0m
+2022-03-24 19:30:47.576401|[00:04:33.550,842] [1;33m<wrn> bt_mesh_transport: Ignoring old SeqAuth[0m
+2022-03-24 19:30:47.583484|[00:04:33.942,382] [1;33m<wrn> bt_mesh_transport: Duplicate SDU from src 0x54e5[0m
+2022-03-24 19:30:47.591194|[00:04:34.150,329] [1;33m<wrn> bt_mesh_transport: Ignoring old SeqAuth[0m
+2022-03-24 19:30:47.597617|[00:04:34.412,292] [1;33m<wrn> bt_mesh_transport: Ignoring old SeqAuth[0m
+2022-03-24 19:30:48.710766|[00:04:34.684,783] [1;33m<wrn> bt_mesh_transport: Replay: src 0x54e5 dst 0xffff seq 0x00089a[0m
+2022-03-24 19:30:48.719182|[00:04:35.108,764] [1;33m<wrn> bt_mesh_transport: Duplicate SDU from src 0x54e5[0m
+2022-03-24 19:30:48.727091|[00:04:35.394,653] [1;33m<wrn> bt_mesh_transport: Ignoring old SeqAuth[0m
+2022-03-24 19:30:49.902118|[00:04:35.876,495] [1;33m<wrn> bt_mesh_transport: Duplicate SDU from src 0x54e5[0m
+2022-03-24 19:30:52.492650|[00:04:38.466,735] [1;33m<wrn> bt_mesh_transport: Duplicate SDU from src 0x54e5[0m
+2022-03-24 19:30:52.500065|[00:04:39.045,715] [1;33m<wrn> bt_mesh_transport: Replay: src 0x54e5 dst 0xffff seq 0x0008d4[0m
+2022-03-24 19:30:53.824960|[00:04:39.799,499] [1;33m<wrn> bt_mesh_transport: Replay: src 0x54e5 dst 0xffff seq 0x0008bb[0m
+2022-03-24 19:30:53.834263|[00:04:40.085,083] [1;33m<wrn> bt_mesh_transport: Ignoring old SeqAuth[0m
+2022-03-24 19:30:53.841201|[00:04:40.376,800] [1;33m<wrn> bt_mesh_transport: Duplicate SDU from src 0x54e5[0m
+2022-03-24 19:30:53.848872|[00:04:40.668,121] [1;33m<wrn> bt_mesh_transport: Ignoring old SeqAuth[0m
+2022-03-24 19:30:55.191378|seq: 2740
+2022-03-24 19:30:56.747466|[00:04:42.720,703] [1;33m<wrn> bt_mesh_transport: Duplicate SDU from src 0x54e5[0m
+2022-03-24 19:30:56.754212|[00:04:43.026,245] [1;33m<wrn> bt_mesh_transport: Ignoring old SeqAuth[0m
+2022-03-24 19:30:56.761094|[00:04:43.313,568] [1;33m<wrn> bt_mesh_transport: Ignoring old SeqAuth[0m
+2022-03-24 19:30:58.382892|[00:04:44.357,208] [1;33m<wrn> bt_mesh_transport: Replay: src 0x54e5 dst 0xffff seq 0x0008ff[0m
+2022-03-24 19:30:58.391520|[00:04:44.648,956] [1;33m<wrn> bt_mesh_transport: Replay: src 0x54e5 dst 0xffff seq 0x000901[0m
+2022-03-24 19:31:00.411007|[00:04:46.385,345] [1;33m<wrn> bt_mesh_transport: Duplicate SDU from src 0x54e5[0m
+2022-03-24 19:31:00.418260|[00:04:47.220,153] [1;33m<wrn> bt_mesh_transport: Duplicate SDU from src 0x54e5[0m
+2022-03-24 19:31:01.383206|seq: 2806
+2022-03-24 19:31:01.518246|[00:04:47.492,034] [1;33m<wrn> bt_mesh_transport: Ignoring old SeqAuth[0m
+2022-03-24 19:31:01.524361|[00:04:47.803,924] [1;33m<wrn> bt_mesh_transport: Ignoring old SeqAuth[0m
+2022-03-24 19:31:01.531095|[00:04:48.065,460] [1;33m<wrn> bt_mesh_transport: Ignoring old SeqAuth[0m
+2022-03-24 19:31:04.115490|[00:04:50.089,508] [1;33m<wrn> bt_mesh_transport: Ignoring old SeqAuth[0m
+2022-03-24 19:31:04.121246|[00:04:51.042,816] [1;33m<wrn> bt_mesh_transport: Duplicate SDU from src 0x54e5[0m
+2022-03-24 19:31:05.667786|[00:04:51.641,632] [1;33m<wrn> bt_mesh_transport: Duplicate SDU from src 0x54e5[0m
+2022-03-24 19:31:05.675110|[00:04:52.630,554] [1;33m<wrn> bt_mesh_transport: Duplicate SDU from src 0x54e5[0m
+2022-03-24 19:31:05.967131|seq: 2861
+2022-03-24 19:31:06.980763|seq: 2872
+2022-03-24 19:31:08.527445|[00:04:54.502,655] [1;33m<wrn> bt_mesh_transport: Replay: src 0x54e5 dst 0xffff seq 0x000953[0m
+2022-03-24 19:31:08.536821|[00:04:54.796,142] [1;33m<wrn> bt_mesh_transport: Replay: src 0x54e5 dst 0xffff seq 0x000955[0m
+2022-03-24 19:31:10.534479|[00:04:56.509,674] [1;33m<wrn> bt_mesh_transport: Ignoring old SeqAuth[0m
+2022-03-24 19:31:10.543050|[00:04:57.132,720] [1;33m<wrn> bt_mesh_transport: Duplicate SDU from src 0x54e5[0m
+2022-03-24 19:31:13.757801|[00:04:59.732,452] [1;33m<wrn> bt_mesh_transport: Duplicate SDU from src 0x54e5[0m
+2022-03-24 19:31:13.766572|[00:05:00.017,578] [1;33m<wrn> bt_mesh_transport: Ignoring old SeqAuth[0m
+2022-03-24 19:31:13.772668|[00:05:00.279,266] [1;33m<wrn> bt_mesh_transport: Duplicate SDU from src 0x54e5[0m
+2022-03-24 19:31:13.781221|[00:05:00.635,498] [1;33m<wrn> bt_mesh_transport: Ignoring old SeqAuth[0m
+2022-03-24 19:31:14.612904|seq: 2949
+2022-03-24 19:31:14.980169|[00:05:00.954,498] [1;33m<wrn> bt_mesh_transport: Ignoring old SeqAuth[0m
+2022-03-24 19:31:14.986668|[00:05:01.347,229] [1;33m<wrn> bt_mesh_transport: Duplicate SDU from src 0x54e5[0m
+2022-03-24 19:31:16.190358|[00:05:02.164,428] [1;33m<wrn> bt_mesh_transport: Replay: src 0x54e5 dst 0xffff seq 0x000993[0m
+2022-03-24 19:31:16.199513|[00:05:02.688,110] [1;33m<wrn> bt_mesh_transport: Replay: src 0x54e5 dst 0xffff seq 0x00098f[0m
+2022-03-24 19:31:16.738996|seq: 2971
+2022-03-24 19:31:17.424323|[00:05:03.398,620] [1;33m<wrn> bt_mesh_transport: Duplicate SDU from src 0x54e5[0m
+2022-03-24 19:31:17.432544|[00:05:04.229,766] [1;33m<wrn> bt_mesh_transport: Replay: src 0x54e5 dst 0xffff seq 0x0009a2[0m
+2022-03-24 19:31:19.905102|seq: 3004
+2022-03-24 19:31:20.141180|[00:05:06.115,264] [1;33m<wrn> bt_mesh_transport: Duplicate SDU from src 0x54e5[0m
+2022-03-24 19:31:20.147949|[00:05:06.387,359] [1;33m<wrn> bt_mesh_transport: Ignoring old SeqAuth[0m
+2022-03-24 19:31:20.155740|[00:05:06.633,300] [1;33m<wrn> bt_mesh_transport: Duplicate SDU from src 0x54e5[0m
+2022-03-24 19:31:21.708458|[00:05:07.681,030] [1;33m<wrn> bt_mesh_transport: Replay: src 0x54e5 dst 0xffff seq 0x0009be[0m
+2022-03-24 19:31:23.257295|[00:05:09.231,567] [1;33m<wrn> bt_mesh_transport: Duplicate SDU from src 0x54e5[0m
+2022-03-24 19:31:23.265354|[00:05:09.495,208] [1;33m<wrn> bt_mesh_transport: Replay: src 0x54e5 dst 0xffff seq 0x0009c3[0m
+2022-03-24 19:31:23.276606|[00:05:10.240,447] [1;33m<wrn> bt_mesh_transport: Duplicate SDU from src 0x54e5[0m
+2022-03-24 19:31:24.804469|[00:05:10.778,533] [1;33m<wrn> bt_mesh_transport: Ignoring old SeqAuth[0m
+2022-03-24 19:31:24.811765|[00:05:11.070,343] [1;33m<wrn> bt_mesh_transport: Ignoring old SeqAuth[0m
+2022-03-24 19:31:24.817967|[00:05:11.348,815] [1;33m<wrn> bt_mesh_transport: Ignoring old SeqAuth[0m
+2022-03-24 19:31:24.824924|[00:05:11.602,874] [1;33m<wrn> bt_mesh_transport: Duplicate SDU from src 0x54e5[0m
+2022-03-24 19:31:25.891064|[00:05:11.865,173] [1;33m<wrn> bt_mesh_transport: Ignoring old SeqAuth[0m
+2022-03-24 19:31:25.897685|[00:05:12.410,217] [1;33m<wrn> bt_mesh_transport: Duplicate SDU from src 0x54e5[0m
+2022-03-24 19:31:25.970418|seq: 3059
+2022-03-24 19:31:27.821046|[00:05:13.795,104] [1;33m<wrn> bt_mesh_transport: Replay: src 0x54e5 dst 0xffff seq 0x0009e5[0m
+2022-03-24 19:31:27.829760|[00:05:14.124,481] [1;33m<wrn> bt_mesh_transport: Replay: src 0x54e5 dst 0xffff seq 0x0009e9[0m
+2022-03-24 19:31:27.839211|[00:05:14.443,969] [1;33m<wrn> bt_mesh_transport: Duplicate SDU from src 0x54e5[0m
+2022-03-24 19:31:30.785585|[00:05:16.758,972] [1;33m<wrn> bt_mesh_transport: Duplicate SDU from src 0x54e5[0m
+2022-03-24 19:31:30.792770|[00:05:17.045,318] [1;33m<wrn> bt_mesh_transport: Ignoring old SeqAuth[0m
+2022-03-24 19:31:31.981207|seq: 3114
+2022-03-24 19:31:32.263020|[00:05:18.236,541] [1;33m<wrn> bt_mesh_transport: Duplicate SDU from src 0x54e5[0m
+2022-03-24 19:31:32.270804|[00:05:18.588,500] [1;33m<wrn> bt_mesh_transport: Ignoring old SeqAuth[0m
+2022-03-24 19:31:34.065404|[00:05:20.039,062] [1;33m<wrn> bt_mesh_transport: Duplicate SDU from src 0x54e5[0m
+2022-03-24 19:31:34.073837|[00:05:20.472,991] [1;33m<wrn> bt_mesh_transport: Ignoring old SeqAuth[0m
+2022-03-24 19:31:34.081586|[00:05:20.782,562] [1;33m<wrn> bt_mesh_transport: Replay: src 0x54e5 dst 0xffff seq 0x000a0c[0m
+2022-03-24 19:31:34.623569|seq: 3136
+2022-03-24 19:31:35.130150|[00:05:21.102,630] [1;33m<wrn> bt_mesh_transport: Replay: src 0x54e5 dst 0xffff seq 0x000a02[0m
+2022-03-24 19:31:35.137569|[00:05:21.332,061] [1;33m<wrn> bt_mesh_transport: Ignoring old SeqAuth[0m
+2022-03-24 19:31:36.872070|[00:05:22.845,458] [1;33m<wrn> bt_mesh_transport: Ignoring old SeqAuth[0m
+2022-03-24 19:31:36.877765|[00:05:23.638,458] [1;33m<wrn> bt_mesh_transport: Replay: src 0x54e5 dst 0xffff seq 0x000a36[0m
+2022-03-24 19:31:38.168266|seq: 3180
+2022-03-24 19:31:38.187450|[00:05:24.161,712] [1;33m<wrn> bt_mesh_transport: Replay: src 0x54e5 dst 0xffff seq 0x000a45[0m
+2022-03-24 19:31:38.196879|[00:05:24.471,862] [1;33m<wrn> bt_mesh_transport: Replay: src 0x54e5 dst 0xffff seq 0x000a28[0m
+2022-03-24 19:31:38.206362|[00:05:24.733,581] [1;33m<wrn> bt_mesh_transport: Duplicate SDU from src 0x54e5[0m
+2022-03-24 19:31:39.455672|[00:05:25.428,039] [1;33m<wrn> bt_mesh_transport: Replay: src 0x54e5 dst 0xffff seq 0x000a50[0m
+2022-03-24 19:31:40.810302|[00:05:26.782,989] [1;33m<wrn> bt_mesh_transport: Duplicate SDU from src 0x54e5[0m
+2022-03-24 19:31:40.816654|[00:05:27.516,052] [1;33m<wrn> bt_mesh_transport: Replay: src 0x54e5 dst 0xffff seq 0x000a61[0m
+2022-03-24 19:31:40.826126|[00:05:27.748,260] [1;33m<wrn> bt_mesh_transport: Replay: src 0x54e5 dst 0xffff seq 0x000a63[0m
+2022-03-24 19:31:42.756341|seq: 3224
+2022-03-24 19:31:42.903346|[00:05:28.876,159] [1;33m<wrn> bt_mesh_transport: Duplicate SDU from src 0x54e5[0m
+2022-03-24 19:31:42.910007|[00:05:29.400,024] [1;33m<wrn> bt_mesh_transport: Ignoring old SeqAuth[0m
+2022-03-24 19:31:45.040972|[00:05:31.014,739] [1;33m<wrn> bt_mesh_transport: Replay: src 0x54e5 dst 0xffff seq 0x000a5a[0m
+2022-03-24 19:31:45.051311|[00:05:31.994,476] [1;33m<wrn> bt_mesh_transport: Duplicate SDU from src 0x54e5[0m
+2022-03-24 19:31:46.591765|[00:05:32.565,643] [1;33m<wrn> bt_mesh_transport: Replay: src 0x54e5 dst 0xffff seq 0x000a8a[0m
+2022-03-24 19:31:46.601349|[00:05:32.804,901] [1;33m<wrn> bt_mesh_transport: Replay: src 0x54e5 dst 0xffff seq 0x000a8c[0m
+2022-03-24 19:31:48.073224|[00:05:34.045,684] [1;33m<wrn> bt_mesh_transport: Replay: src 0x54e5 dst 0xffff seq 0x000a78[0m
+2022-03-24 19:31:48.080950|[00:05:34.355,316] [1;33m<wrn> bt_mesh_transport: Replay: src 0x54e5 dst 0xffff seq 0x000a8e[0m
+2022-03-24 19:31:48.090658|[00:05:34.872,589] [1;33m<wrn> bt_mesh_transport: Replay: src 0x54e5 dst 0xffff seq 0x000a93[0m
+2022-03-24 19:31:49.184799|[00:05:35.158,447] [1;33m<wrn> bt_mesh_transport: Replay: src 0x54e5 dst 0xffff seq 0x000a95[0m
+2022-03-24 19:31:49.194179|[00:05:35.720,489] [1;33m<wrn> bt_mesh_transport: Replay: src 0x54e5 dst 0xffff seq 0x000a86[0m
+2022-03-24 19:31:49.202515|[00:05:36.006,744] [1;33m<wrn> bt_mesh_transport: Replay: src 0x54e5 dst 0xffff seq 0x000a92[0m
+2022-03-24 19:31:50.295021|[00:05:36.268,524] [1;33m<wrn> bt_mesh_transport: Duplicate SDU from src 0x54e5[0m
+2022-03-24 19:31:50.302678|[00:05:36.571,929] [1;33m<wrn> bt_mesh_transport: Ignoring old SeqAuth[0m
+2022-03-24 19:31:50.309883|[00:05:36.967,224] [1;33m<wrn> bt_mesh_transport: Duplicate SDU from src 0x54e5[0m
+2022-03-24 19:31:50.317699|[00:05:37.239,074] [1;33m<wrn> bt_mesh_transport: Ignoring old SeqAuth[0m
+2022-03-24 19:31:51.581455|[00:05:37.554,138] [1;33m<wrn> bt_mesh_transport: Ignoring old SeqAuth[0m
+2022-03-24 19:31:51.587440|[00:05:37.845,123] [1;33m<wrn> bt_mesh_transport: Duplicate SDU from src 0x54e5[0m
+2022-03-24 19:31:51.595223|[00:05:38.113,739] [1;33m<wrn> bt_mesh_transport: Ignoring old SeqAuth[0m
+2022-03-24 19:31:53.220854|[00:05:39.194,641] [1;33m<wrn> bt_mesh_transport: Replay: src 0x54e5 dst 0xffff seq 0x000a8e[0m
+2022-03-24 19:31:53.232235|[00:05:39.353,118] [1;33m<wrn> bt_mesh_transport: Duplicate SDU from src 0x54e5[0m
+2022-03-24 19:31:53.240532|[00:05:39.653,839] [1;33m<wrn> bt_mesh_transport: Ignoring old SeqAuth[0m
+2022-03-24 19:31:53.246485|[00:05:39.941,467] [1;33m<wrn> bt_mesh_transport: Duplicate SDU from src 0x54e5[0m
+2022-03-24 19:31:54.619674|[00:05:40.593,292] [1;33m<wrn> bt_mesh_transport: Ignoring old SeqAuth[0m
+2022-03-24 19:31:54.627051|[00:05:40.863,189] [1;33m<wrn> bt_mesh_transport: Ignoring old SeqAuth[0m
+2022-03-24 19:31:54.633382|[00:05:41.102,355] [1;33m<wrn> bt_mesh_transport: Ignoring old SeqAuth[0m
+2022-03-24 19:31:54.640792|[00:05:41.363,525] [1;33m<wrn> bt_mesh_transport: Ignoring old SeqAuth[0m
+2022-03-24 19:31:55.682792|[00:05:41.655,548] [1;33m<wrn> bt_mesh_transport: Ignoring old SeqAuth[0m
+2022-03-24 19:31:55.689142|[00:05:41.914,093] [1;33m<wrn> bt_mesh_transport: Duplicate SDU from src 0x54e5[0m
+2022-03-24 19:31:55.697056|[00:05:42.175,689] [1;33m<wrn> bt_mesh_transport: Ignoring old SeqAuth[0m
+2022-03-24 19:31:55.704394|[00:05:42.411,102] [1;33m<wrn> bt_mesh_transport: Ignoring old SeqAuth[0m
+2022-03-24 19:31:55.710393|[00:05:42.673,858] [1;33m<wrn> bt_mesh_transport: Ignoring old SeqAuth[0m
+2022-03-24 19:31:56.961734|[00:05:42.934,906] [1;33m<wrn> bt_mesh_transport: Ignoring old SeqAuth[0m
+2022-03-24 19:31:56.968118|[00:05:43.197,570] [1;33m<wrn> bt_mesh_transport: Ignoring old SeqAuth[0m
+2022-03-24 19:31:56.975661|[00:05:43.720,672] [1;33m<wrn> bt_mesh_transport: Duplicate SDU from src 0x54e5[0m
+2022-03-24 19:31:58.017502|[00:05:43.991,943] [1;33m<wrn> bt_mesh_transport: Ignoring old SeqAuth[0m
+2022-03-24 19:31:58.024823|[00:05:44.804,779] [1;33m<wrn> bt_mesh_transport: Ignoring old SeqAuth[0m
+2022-03-24 19:31:59.119238|[00:05:45.092,681] [1;33m<wrn> bt_mesh_transport: Duplicate SDU from src 0x54e5[0m
+2022-03-24 19:31:59.126069|[00:05:45.354,400] [1;33m<wrn> bt_mesh_transport: Ignoring old SeqAuth[0m
+2022-03-24 19:32:00.140914|[00:05:46.114,898] [1;33m<wrn> bt_mesh_transport: Duplicate SDU from src 0x54e5[0m
+2022-03-24 19:32:00.148936|[00:05:46.420,593] [1;33m<wrn> bt_mesh_transport: Duplicate SDU from src 0x54e5[0m
+2022-03-24 19:32:00.156263|[00:05:46.712,158] [1;33m<wrn> bt_mesh_transport: Ignoring old SeqAuth[0m
+2022-03-24 19:32:01.211393|[00:05:47.184,082] [1;33m<wrn> bt_mesh_transport: Ignoring old SeqAuth[0m
+2022-03-24 19:32:01.217346|[00:05:47.441,070] [1;33m<wrn> bt_mesh_transport: Duplicate SDU from src 0x54e5[0m
+2022-03-24 19:32:01.224608|[00:05:47.762,847] [1;33m<wrn> bt_mesh_transport: Ignoring old SeqAuth[0m
+2022-03-24 19:32:02.338183|[00:05:48.312,011] [1;33m<wrn> bt_mesh_transport: Ignoring old SeqAuth[0m
+2022-03-24 19:32:02.346152|[00:05:48.962,005] [1;33m<wrn> bt_mesh_transport: Ignoring old SeqAuth[0m
+2022-03-24 19:32:02.352939|[00:05:49.293,884] [1;33m<wrn> bt_mesh_transport: Duplicate SDU from src 0x54e5[0m
+2022-03-24 19:32:03.573018|[00:05:49.545,867] [1;33m<wrn> bt_mesh_transport: Ignoring old SeqAuth[0m
+2022-03-24 19:32:05.152695|[00:05:51.125,366] [1;33m<wrn> bt_mesh_transport: Duplicate SDU from src 0x54e5[0m
+2022-03-24 19:32:05.159601|[00:05:51.422,912] [1;33m<wrn> bt_mesh_transport: Ignoring old SeqAuth[0m
+2022-03-24 19:32:05.169147|[00:05:51.875,579] [1;33m<wrn> bt_mesh_transport: Ignoring old SeqAuth[0m
+2022-03-24 19:32:05.175406|[00:05:52.118,469] [1;33m<wrn> bt_mesh_transport: Ignoring old SeqAuth[0m
+2022-03-24 19:32:06.407747|[00:05:52.380,676] [1;33m<wrn> bt_mesh_transport: Duplicate SDU from src 0x54e5[0m
+2022-03-24 19:32:06.415286|[00:05:52.714,935] [1;33m<wrn> bt_mesh_transport: Ignoring old SeqAuth[0m
+2022-03-24 19:32:08.273193|[00:05:54.246,215] [1;33m<wrn> bt_mesh_transport: Duplicate SDU from src 0x54e5[0m
+2022-03-24 19:32:08.280438|[00:05:54.537,292] [1;33m<wrn> bt_mesh_transport: Ignoring old SeqAuth[0m
+2022-03-24 19:32:08.289186|[00:05:54.994,506] [1;33m<wrn> bt_mesh_transport: Ignoring old SeqAuth[0m
+2022-03-24 19:32:09.301688|[00:05:55.274,841] [1;33m<wrn> bt_mesh_transport: Duplicate SDU from src 0x54e5[0m
+2022-03-24 19:32:09.308920|[00:05:56.105,102] [1;33m<wrn> bt_mesh_transport: Ignoring old SeqAuth[0m
+2022-03-24 19:32:10.669622|[00:05:56.642,700] [1;33m<wrn> bt_mesh_transport: Duplicate SDU from src 0x54e5[0m
+2022-03-24 19:32:10.679175|[00:05:57.382,171] [1;33m<wrn> bt_mesh_transport: Duplicate SDU from src 0x54e5[0m
+2022-03-24 19:32:13.253104|seq: 3532
+2022-03-24 19:32:13.815556|[00:05:59.788,604] [1;33m<wrn> bt_mesh_transport: Duplicate SDU from src 0x54e5[0m
+2022-03-24 19:32:15.164707|[00:06:01.136,352] [1;33m<wrn> bt_mesh_transport: Replay: src 0x54e5 dst 0xffff seq 0x000b74[0m
+2022-03-24 19:32:15.171751|[00:06:01.686,767] [1;33m<wrn> bt_mesh_transport: Duplicate SDU from src 0x54e5[0m
+2022-03-24 19:32:16.495965|[00:06:02.468,994] [1;33m<wrn> bt_mesh_transport: Replay: src 0x54e5 dst 0xffff seq 0x000b78[0m
+2022-03-24 19:32:16.504997|[00:06:02.789,703] [1;33m<wrn> bt_mesh_transport: Replay: src 0x54e5 dst 0xffff seq 0x000b81[0m
+2022-03-24 19:32:18.754014|[00:06:04.726,806] [1;33m<wrn> bt_mesh_transport: Replay: src 0x54e5 dst 0xffff seq 0x000b87[0m
+2022-03-24 19:32:18.762609|[00:06:05.011,230] [1;33m<wrn> bt_mesh_transport: Replay: src 0x54e5 dst 0xffff seq 0x000b89[0m
+2022-03-24 19:32:19.803977|[00:06:05.776,306] [1;33m<wrn> bt_mesh_transport: Duplicate SDU from src 0x54e5[0m
+2022-03-24 19:32:19.810751|[00:06:06.623,504] [1;33m<wrn> bt_mesh_transport: Duplicate SDU from src 0x54e5[0m
+2022-03-24 19:32:20.446695|seq: 3609
+2022-03-24 19:32:21.158191|[00:06:07.130,493] [1;33m<wrn> bt_mesh_transport: Duplicate SDU from src 0x54e5[0m
+2022-03-24 19:32:23.454293|[00:06:09.426,208] [1;33m<wrn> bt_mesh_transport: Duplicate SDU from src 0x54e5[0m
+2022-03-24 19:32:24.465662|[00:06:10.437,683] [1;33m<wrn> bt_mesh_transport: Duplicate SDU from src 0x54e5[0m
+2022-03-24 19:32:24.472883|[00:06:11.230,255] [1;33m<wrn> bt_mesh_transport: Ignoring old SeqAuth[0m
+2022-03-24 19:32:26.066514|[00:06:12.039,184] [1;33m<wrn> bt_mesh_transport: Duplicate SDU from src 0x54e5[0m
+2022-03-24 19:32:26.073747|[00:06:12.870,483] [1;33m<wrn> bt_mesh_transport: Duplicate SDU from src 0x54e5[0m
+2022-03-24 19:32:28.006083|[00:06:13.979,492] [1;33m<wrn> bt_mesh_transport: Duplicate SDU from src 0x54e5[0m
+2022-03-24 19:32:28.014083|[00:06:14.443,481] [1;33m<wrn> bt_mesh_transport: Ignoring old SeqAuth[0m
+2022-03-24 19:32:29.179831|[00:06:15.153,076] [1;33m<wrn> bt_mesh_transport: Duplicate SDU from src 0x54e5[0m
+2022-03-24 19:32:29.187930|[00:06:15.475,036] [1;33m<wrn> bt_mesh_transport: Ignoring old SeqAuth[0m
+2022-03-24 19:32:29.194783|[00:06:15.976,287] [1;33m<wrn> bt_mesh_transport: Ignoring old SeqAuth[0m
+2022-03-24 19:32:30.493692|[00:06:16.466,552] [1;33m<wrn> bt_mesh_transport: Ignoring old SeqAuth[0m
+2022-03-24 19:32:31.609206|[00:06:17.582,031] [1;33m<wrn> bt_mesh_transport: Duplicate SDU from src 0x54e5[0m
+2022-03-24 19:32:31.617123|[00:06:17.868,652] [1;33m<wrn> bt_mesh_transport: Ignoring old SeqAuth[0m
+2022-03-24 19:32:31.623068|[00:06:18.132,171] [1;33m<wrn> bt_mesh_transport: Ignoring old SeqAuth[0m
+2022-03-24 19:32:33.003065|[00:06:18.975,585] [1;33m<wrn> bt_mesh_transport: Ignoring old SeqAuth[0m
+2022-03-24 19:32:33.009887|[00:06:19.237,426] [1;33m<wrn> bt_mesh_transport: Ignoring old SeqAuth[0m
+2022-03-24 19:32:33.017149|[00:06:19.498,382] [1;33m<wrn> bt_mesh_transport: Ignoring old SeqAuth[0m
+2022-03-24 19:32:33.023672|[00:06:19.788,940] [1;33m<wrn> bt_mesh_transport: Duplicate SDU from src 0x54e5[0m
+2022-03-24 19:32:34.294937|[00:06:20.266,448] [1;33m<wrn> bt_mesh_transport: Ignoring old SeqAuth[0m
+2022-03-24 19:32:34.300644|[00:06:20.551,849] [1;33m<wrn> bt_mesh_transport: Duplicate SDU from src 0x54e5[0m
+2022-03-24 19:32:34.309390|[00:06:20.865,112] [1;33m<wrn> bt_mesh_transport: Ignoring old SeqAuth[0m
+2022-03-24 19:32:34.315374|[00:06:21.129,699] [1;33m<wrn> bt_mesh_transport: Ignoring old SeqAuth[0m
+2022-03-24 19:32:35.437521|[00:06:21.409,790] [1;33m<wrn> bt_mesh_transport: Ignoring old SeqAuth[0m
+2022-03-24 19:32:35.444524|[00:06:21.734,039] [1;33m<wrn> bt_mesh_transport: Ignoring old SeqAuth[0m
+2022-03-24 19:32:35.451261|[00:06:22.228,424] [1;33m<wrn> bt_mesh_transport: Duplicate SDU from src 0x54e5[0m
+2022-03-24 19:32:36.805254|[00:06:22.777,404] [1;33m<wrn> bt_mesh_transport: Duplicate SDU from src 0x54e5[0m
+2022-03-24 19:32:38.117044|[00:06:24.089,691] [1;33m<wrn> bt_mesh_transport: Duplicate SDU from src 0x54e5[0m
+2022-03-24 19:32:39.206187|[00:06:25.179,168] [1;33m<wrn> bt_mesh_transport: Replay: src 0x54e5 dst 0xffff seq 0x000c39[0m
+2022-03-24 19:32:39.217615|[00:06:26.184,783] [1;33m<wrn> bt_mesh_transport: Duplicate SDU from src 0x54e5[0m
+2022-03-24 19:32:40.808777|seq: 3807
+2022-03-24 19:32:41.239525|[00:06:27.211,853] [1;33m<wrn> bt_mesh_transport: Duplicate SDU from src 0x54e5[0m
+2022-03-24 19:32:42.608072|[00:06:28.580,169] [1;33m<wrn> bt_mesh_transport: Replay: src 0x54e5 dst 0xffff seq 0x000c55[0m
+2022-03-24 19:32:43.984519|seq: 3840
+2022-03-24 19:32:44.167708|[00:06:30.139,678] [1;33m<wrn> bt_mesh_transport: Duplicate SDU from src 0x54e5[0m
+2022-03-24 19:32:45.833880|[00:06:31.806,671] [1;33m<wrn> bt_mesh_transport: Replay: src 0x54e5 dst 0xffff seq 0x000c68[0m
+2022-03-24 19:32:45.842763|[00:06:32.083,618] [1;33m<wrn> bt_mesh_transport: Replay: src 0x54e5 dst 0xffff seq 0x000c56[0m
+2022-03-24 19:32:45.852347|[00:06:32.738,037] [1;33m<wrn> bt_mesh_transport: Replay: src 0x54e5 dst 0xffff seq 0x000c5a[0m
+2022-03-24 19:32:47.072689|[00:06:33.043,579] [1;33m<wrn> bt_mesh_transport: Duplicate SDU from src 0x54e5[0m
+2022-03-24 19:32:47.078734|[00:06:33.779,296] [1;33m<wrn> bt_mesh_transport: Duplicate SDU from src 0x54e5[0m
+2022-03-24 19:32:48.174294|seq: 3884
+2022-03-24 19:32:48.337035|[00:06:34.309,417] [1;33m<wrn> bt_mesh_transport: Ignoring old SeqAuth[0m
+2022-03-24 19:32:53.329365|seq: 3928
+2022-03-24 19:32:53.332339|[00:06:39.303,283] [1;33m<wrn> bt_mesh_transport: Duplicate SDU from src 0x54e5[0m
+2022-03-24 19:32:53.340269|[00:06:39.590,118] [1;33m<wrn> bt_mesh_transport: Ignoring old SeqAuth[0m
+2022-03-24 19:32:53.346806|[00:06:40.007,415] [1;33m<wrn> bt_mesh_transport: Replay: src 0x54e5 dst 0xffff seq 0x000c88[0m
+2022-03-24 19:32:56.389125|[00:06:42.361,114] [1;33m<wrn> bt_mesh_transport: Replay: src 0x54e5 dst 0xffff seq 0x000cbb[0m
+2022-03-24 19:32:56.397937|[00:06:43.305,816] [1;33m<wrn> bt_mesh_transport: Replay: src 0x54e5 dst 0xffff seq 0x000cc4[0m
+2022-03-24 19:32:57.285285|seq: 3972
+2022-03-24 19:32:58.825056|[00:06:44.797,058] [1;33m<wrn> bt_mesh_transport: Replay: src 0x54e5 dst 0xffff seq 0x000cd9[0m
+2022-03-24 19:32:59.932868|[00:06:45.904,724] [1;33m<wrn> bt_mesh_transport: Duplicate SDU from src 0x54e5[0m
+2022-03-24 19:33:01.448463|[00:06:47.420,532] [1;33m<wrn> bt_mesh_transport: Duplicate SDU from src 0x54e5[0m
+2022-03-24 19:33:01.454937|[00:06:47.870,758] [1;33m<wrn> bt_mesh_transport: Duplicate SDU from src 0x54e5[0m
+2022-03-24 19:33:03.941330|seq: 4038
+2022-03-24 19:33:04.332929|[00:06:50.304,473] [1;33m<wrn> bt_mesh_transport: Duplicate SDU from src 0x54e5[0m
+2022-03-24 19:33:04.340001|[00:06:51.187,042] [1;33m<wrn> bt_mesh_transport: Replay: src 0x54e5 dst 0xffff seq 0x000d0d[0m
+2022-03-24 19:33:05.530774|[00:06:51.503,173] [1;33m<wrn> bt_mesh_transport: Replay: src 0x54e5 dst 0xffff seq 0x000d0f[0m
+2022-03-24 19:33:06.003382|seq: 4060
+2022-03-24 19:33:06.696437|[00:06:52.668,487] [1;33m<wrn> bt_mesh_transport: Duplicate SDU from src 0x54e5[0m
+2022-03-24 19:33:08.780073|[00:06:54.751,678] [1;33m<wrn> bt_mesh_transport: Replay: src 0x54e5 dst 0xffff seq 0x000d03[0m
+2022-03-24 19:33:08.788272|[00:06:55.042,968] [1;33m<wrn> bt_mesh_transport: Replay: src 0x54e5 dst 0xffff seq 0x000d1a[0m
+2022-03-24 19:33:08.799637|[00:06:55.328,430] [1;33m<wrn> bt_mesh_transport: Duplicate SDU from src 0x54e5[0m
+2022-03-24 19:33:08.807306|[00:06:55.762,115] [1;33m<wrn> bt_mesh_transport: Duplicate SDU from src 0x54e5[0m
+2022-03-24 19:33:10.611594|[00:06:56.583,496] [1;33m<wrn> bt_mesh_transport: Ignoring old SeqAuth[0m
+2022-03-24 19:33:10.619206|[00:06:56.865,753] [1;33m<wrn> bt_mesh_transport: Duplicate SDU from src 0x54e5[0m
+2022-03-24 19:33:10.626314|[00:06:57.127,502] [1;33m<wrn> bt_mesh_transport: Ignoring old SeqAuth[0m
+2022-03-24 19:33:10.633200|[00:06:57.389,282] [1;33m<wrn> bt_mesh_transport: Ignoring old SeqAuth[0m
+2022-03-24 19:33:11.797253|seq: 4115
+2022-03-24 19:33:11.965362|[00:06:57.936,767] [1;33m<wrn> bt_mesh_transport: Ignoring old SeqAuth[0m
+2022-03-24 19:33:11.971801|[00:06:58.245,544] [1;33m<wrn> bt_mesh_transport: Duplicate SDU from src 0x54e5[0m
+2022-03-24 19:33:14.237642|[00:07:00.209,381] [1;33m<wrn> bt_mesh_transport: Duplicate SDU from src 0x54e5[0m
+2022-03-24 19:33:15.494174|seq: 4159
+2022-03-24 19:33:16.220071|[00:07:02.191,528] [1;33m<wrn> bt_mesh_transport: Duplicate SDU from src 0x54e5[0m
+2022-03-24 19:33:19.982984|seq: 4192
+2022-03-24 19:33:20.117531|[00:07:06.088,653] [1;33m<wrn> bt_mesh_transport: Replay: src 0x54e5 dst 0xffff seq 0x000d74[0m
+2022-03-24 19:33:21.512594|[00:07:07.484,130] [1;33m<wrn> bt_mesh_transport: Ignoring old SeqAuth[0m
+2022-03-24 19:33:21.518652|[00:07:07.904,998] [1;33m<wrn> bt_mesh_transport: Replay: src 0x54e5 dst 0xffff seq 0x000d8b[0m
+2022-03-24 19:33:21.528444|[00:07:08.193,145] [1;33m<wrn> bt_mesh_transport: Duplicate SDU from src 0x54e5[0m
+2022-03-24 19:33:21.536505|[00:07:08.466,705] [1;33m<wrn> bt_mesh_transport: Ignoring old SeqAuth[0m
+2022-03-24 19:33:22.764964|[00:07:08.736,877] [1;33m<wrn> bt_mesh_transport: Ignoring old SeqAuth[0m
+2022-03-24 19:33:22.770882|[00:07:09.023,559] [1;33m<wrn> bt_mesh_transport: Duplicate SDU from src 0x54e5[0m
+2022-03-24 19:33:23.580401|seq: 4236
+2022-03-24 19:33:26.094950|[00:07:12.067,474] [1;33m<wrn> bt_mesh_transport: Duplicate SDU from src 0x54e5[0m
+2022-03-24 19:33:26.103155|[00:07:12.368,896] [1;33m<wrn> bt_mesh_transport: Ignoring old SeqAuth[0m
+2022-03-24 19:33:27.201657|[00:07:13.174,255] [1;33m<wrn> bt_mesh_transport: Ignoring old SeqAuth[0m
+2022-03-24 19:33:27.208808|[00:07:13.651,062] [1;33m<wrn> bt_mesh_transport: Duplicate SDU from src 0x54e5[0m
+2022-03-24 19:33:28.328292|seq: 4280
+2022-03-24 19:33:28.522068|[00:07:14.492,980] [1;33m<wrn> bt_mesh_transport: Duplicate SDU from src 0x54e5[0m
+2022-03-24 19:33:28.528877|[00:07:14.766,876] [1;33m<wrn> bt_mesh_transport: Ignoring old SeqAuth[0m
+2022-03-24 19:33:28.536185|[00:07:15.028,808] [1;33m<wrn> bt_mesh_transport: Ignoring old SeqAuth[0m
+2022-03-24 19:33:29.897055|[00:07:15.868,713] [1;33m<wrn> bt_mesh_transport: Replay: src 0x54e5 dst 0xffff seq 0x000dd7[0m
+2022-03-24 19:33:30.945601|[00:07:16.916,564] [1;33m<wrn> bt_mesh_transport: Replay: src 0x54e5 dst 0xffff seq 0x000de0[0m
+2022-03-24 19:33:30.955663|[00:07:17.640,960] [1;33m<wrn> bt_mesh_transport: Replay: src 0x54e5 dst 0xffff seq 0x000dd1[0m
+2022-03-24 19:33:30.964124|[00:07:17.893,890] [1;33m<wrn> bt_mesh_transport: Duplicate SDU from src 0x54e5[0m
+2022-03-24 19:33:32.473230|[00:07:18.445,465] [1;33m<wrn> bt_mesh_transport: Replay: src 0x54e5 dst 0xffff seq 0x000dec[0m
+2022-03-24 19:33:32.483214|[00:07:19.142,181] [1;33m<wrn> bt_mesh_transport: Replay: src 0x54e5 dst 0xffff seq 0x000de7[0m
+2022-03-24 19:33:33.265834|seq: 4335
+2022-03-24 19:33:34.685561|[00:07:20.657,165] [1;33m<wrn> bt_mesh_transport: Replay: src 0x54e5 dst 0xffff seq 0x000dff[0m
+2022-03-24 19:33:36.126800|[00:07:22.098,571] [1;33m<wrn> bt_mesh_transport: Duplicate SDU from src 0x54e5[0m
+2022-03-24 19:33:36.133685|[00:07:23.083,740] [1;33m<wrn> bt_mesh_transport: Duplicate SDU from src 0x54e5[0m
+2022-03-24 19:33:37.206254|seq: 4368
+2022-03-24 19:33:37.398870|[00:07:23.370,758] [1;33m<wrn> bt_mesh_transport: Ignoring old SeqAuth[0m
+2022-03-24 19:33:37.405204|[00:07:23.894,287] [1;33m<wrn> bt_mesh_transport: Ignoring old SeqAuth[0m
+2022-03-24 19:33:39.739525|[00:07:25.711,181] [1;33m<wrn> bt_mesh_transport: Duplicate SDU from src 0x54e5[0m
+2022-03-24 19:33:41.603780|[00:07:27.575,317] [1;33m<wrn> bt_mesh_transport: Duplicate SDU from src 0x54e5[0m
+2022-03-24 19:33:42.851654|[00:07:28.823,333] [1;33m<wrn> bt_mesh_transport: Duplicate SDU from src 0x54e5[0m
+2022-03-24 19:33:42.859352|[00:07:29.401,794] [1;33m<wrn> bt_mesh_transport: Ignoring old SeqAuth[0m
+2022-03-24 19:33:43.877849|seq: 4434
+2022-03-24 19:33:44.000697|[00:07:29.971,923] [1;33m<wrn> bt_mesh_transport: Duplicate SDU from src 0x54e5[0m
+2022-03-24 19:33:44.007820|[00:07:30.345,550] [1;33m<wrn> bt_mesh_transport: Replay: src 0x54e5 dst 0xffff seq 0x000e14[0m
+2022-03-24 19:33:45.447933|[00:07:31.418,945] [1;33m<wrn> bt_mesh_transport: Replay: src 0x54e5 dst 0xffff seq 0x000e57[0m
+2022-03-24 19:33:45.455740|[00:07:32.065,338] [1;33m<wrn> bt_mesh_transport: Ignoring old SeqAuth[0m
+2022-03-24 19:33:45.463097|[00:07:32.328,918] [1;33m<wrn> bt_mesh_transport: Ignoring old SeqAuth[0m
+2022-03-24 19:33:46.930330|[00:07:32.902,252] [1;33m<wrn> bt_mesh_transport: Duplicate SDU from src 0x54e5[0m
+2022-03-24 19:33:48.189176|[00:07:34.159,881] [1;33m<wrn> bt_mesh_transport: Duplicate SDU from src 0x54e5[0m
+2022-03-24 19:33:48.195990|[00:07:34.737,243] [1;33m<wrn> bt_mesh_transport: Ignoring old SeqAuth[0m
+2022-03-24 19:33:48.203365|[00:07:34.998,077] [1;33m<wrn> bt_mesh_transport: Ignoring old SeqAuth[0m
+2022-03-24 19:33:49.299012|[00:07:35.269,805] [1;33m<wrn> bt_mesh_transport: Ignoring old SeqAuth[0m
+2022-03-24 19:33:49.305238|[00:07:35.997,680] [1;33m<wrn> bt_mesh_transport: Duplicate SDU from src 0x54e5[0m
+2022-03-24 19:33:49.312663|[00:07:36.234,588] [1;33m<wrn> bt_mesh_transport: Ignoring old SeqAuth[0m
+2022-03-24 19:33:49.524523|seq: 4489
+2022-03-24 19:33:52.077858|[00:07:38.049,041] [1;33m<wrn> bt_mesh_transport: Duplicate SDU from src 0x54e5[0m
+2022-03-24 19:33:52.085455|[00:07:38.893,768] [1;33m<wrn> bt_mesh_transport: Ignoring old SeqAuth[0m
+2022-03-24 19:33:53.183708|[00:07:39.155,548] [1;33m<wrn> bt_mesh_transport: Duplicate SDU from src 0x54e5[0m
+2022-03-24 19:33:53.191359|[00:07:39.616,455] [1;33m<wrn> bt_mesh_transport: Duplicate SDU from src 0x54e5[0m
+2022-03-24 19:33:53.200935|[00:07:39.908,660] [1;33m<wrn> bt_mesh_transport: Ignoring old SeqAuth[0m
+2022-03-24 19:33:55.423568|[00:07:41.394,470] [1;33m<wrn> bt_mesh_transport: Duplicate SDU from src 0x54e5[0m
+2022-03-24 19:33:55.431154|[00:07:41.700,317] [1;33m<wrn> bt_mesh_transport: Ignoring old SeqAuth[0m
+2022-03-24 19:33:57.121235|[00:07:43.092,132] [1;33m<wrn> bt_mesh_transport: Replay: src 0x54e5 dst 0xffff seq 0x000ea0[0m
+2022-03-24 19:33:57.128989|[00:07:43.319,335] [1;33m<wrn> bt_mesh_transport: Ignoring old SeqAuth[0m
+2022-03-24 19:33:57.136503|[00:07:43.657,348] [1;33m<wrn> bt_mesh_transport: Replay: src 0x54e5 dst 0xffff seq 0x000ea4[0m
+2022-03-24 19:33:57.146034|[00:07:44.071,258] [1;33m<wrn> bt_mesh_transport: Ignoring old SeqAuth[0m
+2022-03-24 19:33:58.671463|[00:07:44.643,463] [1;33m<wrn> bt_mesh_transport: Duplicate SDU from src 0x54e5[0m
+2022-03-24 19:33:58.679545|[00:07:44.929,016] [1;33m<wrn> bt_mesh_transport: Ignoring old SeqAuth[0m
+2022-03-24 19:33:58.687046|[00:07:45.167,144] [1;33m<wrn> bt_mesh_transport: Duplicate SDU from src 0x54e5[0m
+2022-03-24 19:33:59.719267|[00:07:45.690,460] [1;33m<wrn> bt_mesh_transport: Ignoring old SeqAuth[0m
+2022-03-24 19:33:59.726130|[00:07:46.159,210] [1;33m<wrn> bt_mesh_transport: Ignoring old SeqAuth[0m
+2022-03-24 19:33:59.732488|[00:07:46.446,777] [1;33m<wrn> bt_mesh_transport: Duplicate SDU from src 0x54e5[0m
+2022-03-24 19:34:00.868459|[00:07:46.839,569] [1;33m<wrn> bt_mesh_transport: Ignoring old SeqAuth[0m
+2022-03-24 19:34:00.874968|[00:07:47.122,955] [1;33m<wrn> bt_mesh_transport: Ignoring old SeqAuth[0m
+2022-03-24 19:34:00.882510|[00:07:47.646,759] [1;33m<wrn> bt_mesh_transport: Duplicate SDU from src 0x54e5[0m
+2022-03-24 19:34:02.646329|[00:07:48.617,523] [1;33m<wrn> bt_mesh_transport: Ignoring old SeqAuth[0m
+2022-03-24 19:34:02.652420|[00:07:48.853,302] [1;33m<wrn> bt_mesh_transport: Duplicate SDU from src 0x54e5[0m
+2022-03-24 19:34:02.661193|[00:07:49.346,679] [1;33m<wrn> bt_mesh_transport: Ignoring old SeqAuth[0m
+2022-03-24 19:34:04.118591|[00:07:50.089,324] [1;33m<wrn> bt_mesh_transport: Duplicate SDU from src 0x54e5[0m
+2022-03-24 19:34:04.126690|[00:07:50.376,525] [1;33m<wrn> bt_mesh_transport: Ignoring old SeqAuth[0m
+2022-03-24 19:34:04.132427|[00:07:50.671,844] [1;33m<wrn> bt_mesh_transport: Ignoring old SeqAuth[0m
+2022-03-24 19:34:05.144491|[00:07:51.115,081] [1;33m<wrn> bt_mesh_transport: Ignoring old SeqAuth[0m
+2022-03-24 19:34:05.150735|[00:07:51.682,464] [1;33m<wrn> bt_mesh_transport: Duplicate SDU from src 0x54e5[0m
+2022-03-24 19:34:05.158606|[00:07:51.966,674] [1;33m<wrn> bt_mesh_transport: Duplicate SDU from src 0x54e5[0m
+2022-03-24 19:34:06.277206|[00:07:52.247,955] [1;33m<wrn> bt_mesh_transport: Ignoring old SeqAuth[0m
+2022-03-24 19:34:06.283963|[00:07:52.723,602] [1;33m<wrn> bt_mesh_transport: Ignoring old SeqAuth[0m
+2022-03-24 19:34:06.290698|[00:07:53.042,083] [1;33m<wrn> bt_mesh_transport: Duplicate SDU from src 0x54e5[0m
+2022-03-24 19:34:07.361584|[00:07:53.332,122] [1;33m<wrn> bt_mesh_transport: Ignoring old SeqAuth[0m
+2022-03-24 19:34:07.367759|[00:07:53.594,055] [1;33m<wrn> bt_mesh_transport: Ignoring old SeqAuth[0m
+2022-03-24 19:34:07.374949|[00:07:53.874,816] [1;33m<wrn> bt_mesh_transport: Ignoring old SeqAuth[0m
+2022-03-24 19:34:07.380953|[00:07:54.107,299] [1;33m<wrn> bt_mesh_transport: Duplicate SDU from src 0x54e5[0m
+2022-03-24 19:34:08.401107|[00:07:54.370,941] [1;33m<wrn> bt_mesh_transport: Ignoring old SeqAuth[0m
+2022-03-24 19:34:08.406808|[00:07:55.134,490] [1;33m<wrn> bt_mesh_transport: Duplicate SDU from src 0x54e5[0m
+2022-03-24 19:34:09.381559|seq: 4688
+2022-03-24 19:34:09.740123|[00:07:55.711,486] [1;33m<wrn> bt_mesh_transport: Ignoring old SeqAuth[0m
+2022-03-24 19:34:09.747668|[00:07:55.997,070] [1;33m<wrn> bt_mesh_transport: Ignoring old SeqAuth[0m
+2022-03-24 19:34:11.472721|[00:07:57.443,115] [1;33m<wrn> bt_mesh_transport: Replay: src 0x54e5 dst 0xffff seq 0x000f17[0m
+2022-03-24 19:34:11.480970|[00:07:57.746,063] [1;33m<wrn> bt_mesh_transport: Duplicate SDU from src 0x54e5[0m
+2022-03-24 19:34:11.488671|[00:07:58.436,248] [1;33m<wrn> bt_mesh_transport: Duplicate SDU from src 0x54e5[0m
+2022-03-24 19:34:12.340570|seq: 4721
+2022-03-24 19:34:12.756681|[00:07:58.727,325] [1;33m<wrn> bt_mesh_transport: Ignoring old SeqAuth[0m
+2022-03-24 19:34:12.763276|[00:07:59.572,814] [1;33m<wrn> bt_mesh_transport: Replay: src 0x54e5 dst 0xffff seq 0x000f12[0m
+2022-03-24 19:34:14.069033|[00:08:00.040,679] [1;33m<wrn> bt_mesh_transport: Replay: src 0x54e5 dst 0xffff seq 0x000f36[0m
+2022-03-24 19:34:14.078374|[00:08:00.858,947] [1;33m<wrn> bt_mesh_transport: Replay: src 0x54e5 dst 0xffff seq 0x000f3c[0m
+2022-03-24 19:34:15.173615|[00:08:01.143,920] [1;33m<wrn> bt_mesh_transport: Duplicate SDU from src 0x54e5[0m
+2022-03-24 19:34:15.180649|[00:08:01.413,665] [1;33m<wrn> bt_mesh_transport: Ignoring old SeqAuth[0m
+2022-03-24 19:34:15.187745|[00:08:01.677,185] [1;33m<wrn> bt_mesh_transport: Ignoring old SeqAuth[0m
+2022-03-24 19:34:15.195098|[00:08:01.976,196] [1;33m<wrn> bt_mesh_transport: Duplicate SDU from src 0x54e5[0m
+2022-03-24 19:34:16.266312|[00:08:02.236,968] [1;33m<wrn> bt_mesh_transport: Replay: src 0x54e5 dst 0xffff seq 0x000f25[0m
+2022-03-24 19:34:16.274608|[00:08:02.691,802] [1;33m<wrn> bt_mesh_transport: Replay: src 0x54e5 dst 0xffff seq 0x000f41[0m
+2022-03-24 19:34:16.284026|[00:08:02.953,826] [1;33m<wrn> bt_mesh_transport: Replay: src 0x54e5 dst 0xffff seq 0x000f43[0m
+2022-03-24 19:34:16.292589|[00:08:03.215,362] [1;33m<wrn> bt_mesh_transport: Ignoring old SeqAuth[0m
+2022-03-24 19:34:17.507123|[00:08:03.477,050] [1;33m<wrn> bt_mesh_transport: Ignoring old SeqAuth[0m
+2022-03-24 19:34:17.512923|[00:08:03.738,433] [1;33m<wrn> bt_mesh_transport: Duplicate SDU from src 0x54e5[0m
+2022-03-24 19:34:17.520422|[00:08:04.030,609] [1;33m<wrn> bt_mesh_transport: Ignoring old SeqAuth[0m
+2022-03-24 19:34:17.528124|[00:08:04.334,014] [1;33m<wrn> bt_mesh_transport: Ignoring old SeqAuth[0m
+2022-03-24 19:34:18.335913|seq: 4765
+2022-03-24 19:34:18.769191|[00:08:04.739,990] [1;33m<wrn> bt_mesh_transport: Ignoring old SeqAuth[0m
+2022-03-24 19:34:19.933835|[00:08:05.904,357] [1;33m<wrn> bt_mesh_transport: Ignoring old SeqAuth[0m
+2022-03-24 19:34:19.940075|[00:08:06.211,090] [1;33m<wrn> bt_mesh_transport: Duplicate SDU from src 0x54e5[0m
+2022-03-24 19:34:20.616167|seq: 4809
+2022-03-24 19:34:20.962496|[00:08:06.933,135] [1;33m<wrn> bt_mesh_transport: Ignoring old SeqAuth[0m
+2022-03-24 19:34:20.968566|[00:08:07.158,020] [1;33m<wrn> bt_mesh_transport: Duplicate SDU from src 0x54e5[0m
+2022-03-24 19:34:20.975716|[00:08:07.901,947] [1;33m<wrn> bt_mesh_transport: Replay: src 0x54e5 dst 0xffff seq 0x000f81[0m
+2022-03-24 19:34:22.250711|[00:08:08.220,977] [1;33m<wrn> bt_mesh_transport: Replay: src 0x54e5 dst 0xffff seq 0x000f63[0m
+2022-03-24 19:34:22.258955|[00:08:08.750,976] [1;33m<wrn> bt_mesh_transport: Replay: src 0x54e5 dst 0xffff seq 0x000f7c[0m
+2022-03-24 19:34:23.475388|[00:08:09.445,953] [1;33m<wrn> bt_mesh_transport: Replay: src 0x54e5 dst 0xffff seq 0x000f83[0m
+2022-03-24 19:34:23.483476|[00:08:10.113,647] [1;33m<wrn> bt_mesh_transport: Duplicate SDU from src 0x54e5[0m
+2022-03-24 19:34:24.949220|[00:08:10.919,738] [1;33m<wrn> bt_mesh_transport: Ignoring old SeqAuth[0m
+2022-03-24 19:34:24.955932|[00:08:11.199,737] [1;33m<wrn> bt_mesh_transport: Duplicate SDU from src 0x54e5[0m
+2022-03-24 19:34:26.483170|seq: 4864
+2022-03-24 19:34:26.548239|[00:08:12.519,104] [1;33m<wrn> bt_mesh_transport: Replay: src 0x54e5 dst 0xffff seq 0x000fa5[0m
+2022-03-24 19:34:26.556825|[00:08:12.869,018] [1;33m<wrn> bt_mesh_transport: Duplicate SDU from src 0x54e5[0m
+2022-03-24 19:34:28.542944|[00:08:14.512,908] [1;33m<wrn> bt_mesh_transport: Replay: src 0x54e5 dst 0xffff seq 0x000fac[0m
+2022-03-24 19:34:28.550304|[00:08:15.356,231] [1;33m<wrn> bt_mesh_transport: Replay: src 0x54e5 dst 0xffff seq 0x000f92[0m
+2022-03-24 19:34:29.657376|[00:08:15.628,448] [1;33m<wrn> bt_mesh_transport: Duplicate SDU from src 0x54e5[0m
+2022-03-24 19:34:29.665341|[00:08:15.890,014] [1;33m<wrn> bt_mesh_transport: Replay: src 0x54e5 dst 0xffff seq 0x000fb6[0m
+2022-03-24 19:34:29.674500|[00:08:16.259,826] [1;33m<wrn> bt_mesh_transport: Replay: src 0x54e5 dst 0xffff seq 0x000fa7[0m
+2022-03-24 19:34:30.878455|[00:08:16.848,205] [1;33m<wrn> bt_mesh_transport: Replay: src 0x54e5 dst 0xffff seq 0x000fa9[0m
+2022-03-24 19:34:30.885650|[00:08:17.084,136] [1;33m<wrn> bt_mesh_transport: Duplicate SDU from src 0x54e5[0m
+2022-03-24 19:34:32.165150|seq: 4908
+2022-03-24 19:34:34.452955|[00:08:20.423,339] [1;33m<wrn> bt_mesh_transport: Duplicate SDU from src 0x54e5[0m
+2022-03-24 19:34:34.460338|[00:08:21.282,409] [1;33m<wrn> bt_mesh_transport: Ignoring old SeqAuth[0m
+2022-03-24 19:34:35.596686|[00:08:21.567,047] [1;33m<wrn> bt_mesh_transport: Replay: src 0x54e5 dst 0xffff seq 0x000fc6[0m
+2022-03-24 19:34:35.604696|[00:08:22.192,108] [1;33m<wrn> bt_mesh_transport: Ignoring old SeqAuth[0m
+2022-03-24 19:34:35.613248|[00:08:22.316,040] [1;33m<wrn> bt_mesh_transport: Replay: src 0x54e5 dst 0xffff seq 0x000fd6[0m
+2022-03-24 19:34:36.637479|[00:08:22.608,154] [1;33m<wrn> bt_mesh_transport: Ignoring old SeqAuth[0m
+2022-03-24 19:34:36.645219|[00:08:23.141,937] [1;33m<wrn> bt_mesh_transport: Duplicate SDU from src 0x54e5[0m
+2022-03-24 19:34:36.903636|seq: 4963
+2022-03-24 19:34:38.019778|seq: 4985
+2022-03-24 19:34:38.454203|[00:08:24.423,583] [1;33m<wrn> bt_mesh_transport: Replay: src 0x54e5 dst 0xffff seq 0x000fe7[0m
+2022-03-24 19:34:38.461840|[00:08:25.394,866] [1;33m<wrn> bt_mesh_transport: Replay: src 0x54e5 dst 0xffff seq 0x001010[0m
+2022-03-24 19:34:40.286965|[00:08:26.257,049] [1;33m<wrn> bt_mesh_transport: Replay: src 0x54e5 dst 0xffff seq 0x001017[0m
+2022-03-24 19:34:40.295145|[00:08:26.910,827] [1;33m<wrn> bt_mesh_transport: Replay: src 0x54e5 dst 0xffff seq 0x00101b[0m
+2022-03-24 19:34:40.304489|[00:08:27.174,530] [1;33m<wrn> bt_mesh_transport: Duplicate SDU from src 0x54e5[0m
+2022-03-24 19:34:41.725019|[00:08:27.695,831] [1;33m<wrn> bt_mesh_transport: Replay: src 0x54e5 dst 0xffff seq 0x001003[0m
+2022-03-24 19:34:41.733485|[00:08:28.264,495] [1;33m<wrn> bt_mesh_transport: Ignoring old SeqAuth[0m
+2022-03-24 19:34:41.741366|[00:08:28.559,112] [1;33m<wrn> bt_mesh_transport: Duplicate SDU from src 0x54e5[0m
+2022-03-24 19:34:42.945165|[00:08:28.915,893] [1;33m<wrn> bt_mesh_transport: Ignoring old SeqAuth[0m
+2022-03-24 19:34:42.951357|[00:08:29.204,833] [1;33m<wrn> bt_mesh_transport: Replay: src 0x54e5 dst 0xffff seq 0x00100f[0m
+2022-03-24 19:34:42.961277|[00:08:29.677,703] [1;33m<wrn> bt_mesh_transport: Ignoring old SeqAuth[0m
+2022-03-24 19:34:44.398086|[00:08:30.368,835] [1;33m<wrn> bt_mesh_transport: Ignoring old SeqAuth[0m
+2022-03-24 19:34:44.404623|[00:08:30.707,672] [1;33m<wrn> bt_mesh_transport: Duplicate SDU from src 0x54e5[0m
+2022-03-24 19:34:44.412966|[00:08:30.969,573] [1;33m<wrn> bt_mesh_transport: Replay: src 0x54e5 dst 0xffff seq 0x00101c[0m
+2022-03-24 19:34:44.549992|seq: 5040
+2022-03-24 19:34:46.342684|[00:08:32.313,568] [1;33m<wrn> bt_mesh_transport: Replay: src 0x54e5 dst 0xffff seq 0x00103d[0m
+2022-03-24 19:34:46.351388|[00:08:33.145,507] [1;33m<wrn> bt_mesh_transport: Replay: src 0x54e5 dst 0xffff seq 0x001039[0m
+2022-03-24 19:34:47.931899|[00:08:33.903,564] [1;33m<wrn> bt_mesh_transport: Replay: src 0x54e5 dst 0xffff seq 0x00103e[0m
+2022-03-24 19:34:47.941060|[00:08:34.040,191] [1;33m<wrn> bt_mesh_transport: Duplicate SDU from src 0x54e5[0m
+2022-03-24 19:34:49.183743|[00:08:35.154,571] [1;33m<wrn> bt_mesh_transport: Duplicate SDU from src 0x54e5[0m
+2022-03-24 19:34:49.192923|[00:08:35.468,200] [1;33m<wrn> bt_mesh_transport: Ignoring old SeqAuth[0m
+2022-03-24 19:34:49.199837|[00:08:35.894,165] [1;33m<wrn> bt_mesh_transport: Duplicate SDU from src 0x54e5[0m
+2022-03-24 19:34:50.210820|[00:08:36.181,732] [1;33m<wrn> bt_mesh_transport: Ignoring old SeqAuth[0m
+2022-03-24 19:34:50.217328|[00:08:36.734,985] [1;33m<wrn> bt_mesh_transport: Ignoring old SeqAuth[0m
+2022-03-24 19:34:50.225297|[00:08:36.996,765] [1;33m<wrn> bt_mesh_transport: Duplicate SDU from src 0x54e5[0m
+2022-03-24 19:34:52.045416|[00:08:38.016,174] [1;33m<wrn> bt_mesh_transport: Duplicate SDU from src 0x54e5[0m
+2022-03-24 19:34:53.067890|[00:08:39.038,330] [1;33m<wrn> bt_mesh_transport: Duplicate SDU from src 0x54e5[0m
+2022-03-24 19:34:53.075637|[00:08:39.637,329] [1;33m<wrn> bt_mesh_transport: Ignoring old SeqAuth[0m
+2022-03-24 19:34:54.192683|[00:08:40.162,445] [1;33m<wrn> bt_mesh_transport: Duplicate SDU from src 0x54e5[0m
+2022-03-24 19:34:55.230688|[00:08:41.200,683] [1;33m<wrn> bt_mesh_transport: Ignoring old SeqAuth[0m
+2022-03-24 19:34:57.573463|[00:08:43.542,449] [1;33m<wrn> bt_mesh_transport: Duplicate SDU from src 0x54e5[0m
+2022-03-24 19:34:57.580219|[00:08:44.043,823] [1;33m<wrn> bt_mesh_transport: Ignoring old SeqAuth[0m
+2022-03-24 19:34:57.587636|[00:08:44.333,404] [1;33m<wrn> bt_mesh_transport: Ignoring old SeqAuth[0m
+2022-03-24 19:34:59.376113|[00:08:45.346,618] [1;33m<wrn> bt_mesh_transport: Duplicate SDU from src 0x54e5[0m
+2022-03-24 19:34:59.383573|[00:08:46.171,813] [1;33m<wrn> bt_mesh_transport: Ignoring old SeqAuth[0m
+2022-03-24 19:35:00.516357|[00:08:46.487,030] [1;33m<wrn> bt_mesh_transport: Ignoring old SeqAuth[0m
+2022-03-24 19:35:00.523567|[00:08:46.748,626] [1;33m<wrn> bt_mesh_transport: Duplicate SDU from src 0x54e5[0m
+2022-03-24 19:35:00.530863|[00:08:47.391,815] [1;33m<wrn> bt_mesh_transport: Duplicate SDU from src 0x54e5[0m
+2022-03-24 19:35:02.074502|[00:08:48.044,128] [1;33m<wrn> bt_mesh_transport: Duplicate SDU from src 0x54e5[0m
+2022-03-24 19:35:02.080506|[00:08:48.333,923] [1;33m<wrn> bt_mesh_transport: Ignoring old SeqAuth[0m
+2022-03-24 19:35:02.088570|[00:08:49.015,075] [1;33m<wrn> bt_mesh_transport: Ignoring old SeqAuth[0m
+2022-03-24 19:35:03.599023|[00:08:49.568,084] [1;33m<wrn> bt_mesh_transport: Duplicate SDU from src 0x54e5[0m
+2022-03-24 19:35:03.604854|[00:08:49.837,005] [1;33m<wrn> bt_mesh_transport: Ignoring old SeqAuth[0m
+2022-03-24 19:35:03.612471|[00:08:50.120,300] [1;33m<wrn> bt_mesh_transport: Ignoring old SeqAuth[0m
+2022-03-24 19:35:04.632812|[00:08:50.602,478] [1;33m<wrn> bt_mesh_transport: Ignoring old SeqAuth[0m
+2022-03-24 19:35:04.638795|[00:08:51.091,461] [1;33m<wrn> bt_mesh_transport: Duplicate SDU from src 0x54e5[0m
+2022-03-24 19:35:04.647060|[00:08:51.376,708] [1;33m<wrn> bt_mesh_transport: Ignoring old SeqAuth[0m
+2022-03-24 19:35:04.669644|seq: 5249
+2022-03-24 19:35:05.973672|[00:08:51.944,213] [1;33m<wrn> bt_mesh_transport: Replay: src 0x54e5 dst 0xffff seq 0x0010be[0m
+2022-03-24 19:35:05.981789|[00:08:52.212,341] [1;33m<wrn> bt_mesh_transport: Replay: src 0x54e5 dst 0xffff seq 0x0010e0[0m
+2022-03-24 19:35:07.213726|[00:08:53.184,967] [1;33m<wrn> bt_mesh_transport: Replay: src 0x54e5 dst 0xffff seq 0x0010e9[0m
+2022-03-24 19:35:07.223302|[00:08:53.448,638] [1;33m<wrn> bt_mesh_transport: Replay: src 0x54e5 dst 0xffff seq 0x0010cb[0m
+2022-03-24 19:35:07.232586|[00:08:53.708,526] [1;33m<wrn> bt_mesh_transport: Replay: src 0x54e5 dst 0xffff seq 0x0010ed[0m
+2022-03-24 19:35:07.240734|[00:08:54.071,472] [1;33m<wrn> bt_mesh_transport: Duplicate SDU from src 0x54e5[0m
+2022-03-24 19:35:09.561544|[00:08:55.532,592] [1;33m<wrn> bt_mesh_transport: Ignoring old SeqAuth[0m
+2022-03-24 19:35:09.568746|[00:08:56.375,976] [1;33m<wrn> bt_mesh_transport: Ignoring old SeqAuth[0m
+2022-03-24 19:35:11.181009|[00:08:57.151,123] [1;33m<wrn> bt_mesh_transport: Duplicate SDU from src 0x54e5[0m
+2022-03-24 19:35:11.188110|[00:08:57.393,218] [1;33m<wrn> bt_mesh_transport: Ignoring old SeqAuth[0m
+2022-03-24 19:35:11.194948|[00:08:57.948,181] [1;33m<wrn> bt_mesh_transport: Ignoring old SeqAuth[0m
+2022-03-24 19:35:12.264003|[00:08:58.233,856] [1;33m<wrn> bt_mesh_transport: Ignoring old SeqAuth[0m
+2022-03-24 19:35:12.270332|[00:08:58.517,120] [1;33m<wrn> bt_mesh_transport: Duplicate SDU from src 0x54e5[0m
+2022-03-24 19:35:12.278749|[00:08:58.824,279] [1;33m<wrn> bt_mesh_transport: Ignoring old SeqAuth[0m
+2022-03-24 19:35:12.285376|[00:08:59.039,367] [1;33m<wrn> bt_mesh_transport: Ignoring old SeqAuth[0m
+2022-03-24 19:35:13.349263|[00:08:59.319,824] [1;33m<wrn> bt_mesh_transport: Ignoring old SeqAuth[0m
+2022-03-24 19:35:13.357025|[00:08:59.593,170] [1;33m<wrn> bt_mesh_transport: Duplicate SDU from src 0x54e5[0m
+2022-03-24 19:35:13.364167|[00:08:59.990,234] [1;33m<wrn> bt_mesh_transport: Ignoring old SeqAuth[0m
+2022-03-24 19:35:14.613753|[00:09:00.584,533] [1;33m<wrn> bt_mesh_transport: Duplicate SDU from src 0x54e5[0m
+2022-03-24 19:35:14.624477|[00:09:01.588,775] [1;33m<wrn> bt_mesh_transport: Ignoring old SeqAuth[0m
+2022-03-24 19:35:15.929569|[00:09:01.899,749] [1;33m<wrn> bt_mesh_transport: Ignoring old SeqAuth[0m
+2022-03-24 19:35:15.936429|[00:09:02.174,255] [1;33m<wrn> bt_mesh_transport: Duplicate SDU from src 0x54e5[0m
+2022-03-24 19:35:15.943435|[00:09:02.435,882] [1;33m<wrn> bt_mesh_transport: Ignoring old SeqAuth[0m
+2022-03-24 19:35:15.950791|[00:09:02.726,287] [1;33m<wrn> bt_mesh_transport: Ignoring old SeqAuth[0m
+2022-03-24 19:35:17.019698|[00:09:02.989,868] [1;33m<wrn> bt_mesh_transport: Ignoring old SeqAuth[0m
+2022-03-24 19:35:17.025931|[00:09:03.273,681] [1;33m<wrn> bt_mesh_transport: Ignoring old SeqAuth[0m
+2022-03-24 19:35:17.033687|[00:09:03.557,952] [1;33m<wrn> bt_mesh_transport: Duplicate SDU from src 0x54e5[0m
+2022-03-24 19:35:17.041403|[00:09:03.777,557] [1;33m<wrn> bt_mesh_transport: Ignoring old SeqAuth[0m
+2022-03-24 19:35:19.023534|[00:09:04.993,194] [1;33m<wrn> bt_mesh_transport: Ignoring old SeqAuth[0m
+2022-03-24 19:35:19.029805|[00:09:05.261,779] [1;33m<wrn> bt_mesh_transport: Ignoring old SeqAuth[0m
+2022-03-24 19:35:19.037356|[00:09:05.719,512] [1;33m<wrn> bt_mesh_transport: Ignoring old SeqAuth[0m
+2022-03-24 19:35:20.807397|[00:09:06.777,374] [1;33m<wrn> bt_mesh_transport: Replay: src 0x54e5 dst 0xffff seq 0x001138[0m
+2022-03-24 19:35:20.815741|[00:09:07.039,276] [1;33m<wrn> bt_mesh_transport: Ignoring old SeqAuth[0m
+2022-03-24 19:35:20.823421|[00:09:07.395,874] [1;33m<wrn> bt_mesh_transport: Ignoring old SeqAuth[0m
+2022-03-24 19:35:20.830314|[00:09:07.683,074] [1;33m<wrn> bt_mesh_transport: Ignoring old SeqAuth[0m
+2022-03-24 19:35:21.976870|[00:09:07.946,655] [1;33m<wrn> bt_mesh_transport: Ignoring old SeqAuth[0m
+2022-03-24 19:35:21.983547|[00:09:08.713,409] [1;33m<wrn> bt_mesh_transport: Duplicate SDU from src 0x54e5[0m
+2022-03-24 19:35:21.991413|[00:09:08.897,613] [1;33m<wrn> bt_mesh_transport: Ignoring old SeqAuth[0m
+2022-03-24 19:35:23.507218|[00:09:09.476,440] [1;33m<wrn> bt_mesh_transport: Duplicate SDU from src 0x54e5[0m
+2022-03-24 19:35:24.601348|[00:09:10.570,831] [1;33m<wrn> bt_mesh_transport: Ignoring old SeqAuth[0m
+2022-03-24 19:35:24.607810|[00:09:10.843,109] [1;33m<wrn> bt_mesh_transport: Ignoring old SeqAuth[0m
+2022-03-24 19:35:24.614992|[00:09:11.082,550] [1;33m<wrn> bt_mesh_transport: Duplicate SDU from src 0x54e5[0m
+2022-03-24 19:35:25.897307|[00:09:11.868,072] [1;33m<wrn> bt_mesh_transport: Ignoring old SeqAuth[0m
+2022-03-24 19:35:25.903620|[00:09:12.424,865] [1;33m<wrn> bt_mesh_transport: Duplicate SDU from src 0x54e5[0m
+2022-03-24 19:35:25.911697|[00:09:12.732,666] [1;33m<wrn> bt_mesh_transport: Ignoring old SeqAuth[0m
+2022-03-24 19:35:26.978024|[00:09:12.947,998] [1;33m<wrn> bt_mesh_transport: Ignoring old SeqAuth[0m
+2022-03-24 19:35:26.984612|[00:09:13.209,594] [1;33m<wrn> bt_mesh_transport: Ignoring old SeqAuth[0m
+2022-03-24 19:35:26.990705|[00:09:13.501,098] [1;33m<wrn> bt_mesh_transport: Duplicate SDU from src 0x54e5[0m
+2022-03-24 19:35:27.501775|seq: 5469
+2022-03-24 19:35:29.862594|[00:09:15.832,122] [1;33m<wrn> bt_mesh_transport: Duplicate SDU from src 0x54e5[0m
+2022-03-24 19:35:29.870341|[00:09:16.592,224] [1;33m<wrn> bt_mesh_transport: Replay: src 0x54e5 dst 0xffff seq 0x0011a7[0m
+2022-03-24 19:35:31.697638|[00:09:17.666,717] [1;33m<wrn> bt_mesh_transport: Duplicate SDU from src 0x54e5[0m
+2022-03-24 19:35:31.704615|[00:09:18.397,979] [1;33m<wrn> bt_mesh_transport: Ignoring old SeqAuth[0m
+2022-03-24 19:35:33.189549|[00:09:19.160,156] [1;33m<wrn> bt_mesh_transport: Replay: src 0x54e5 dst 0xffff seq 0x0011b2[0m
+2022-03-24 19:35:33.200564|[00:09:19.470,581] [1;33m<wrn> bt_mesh_transport: Duplicate SDU from src 0x54e5[0m
+2022-03-24 19:35:33.206653|[00:09:20.021,331] [1;33m<wrn> bt_mesh_transport: Duplicate SDU from src 0x54e5[0m
+2022-03-24 19:35:34.342190|[00:09:20.311,309] [1;33m<wrn> bt_mesh_transport: Ignoring old SeqAuth[0m
+2022-03-24 19:35:34.348431|[00:09:20.999,084] [1;33m<wrn> bt_mesh_transport: Duplicate SDU from src 0x54e5[0m
+2022-03-24 19:35:34.864325|seq: 5546
+2022-03-24 19:35:35.596677|[00:09:21.565,582] [1;33m<wrn> bt_mesh_transport: Ignoring old SeqAuth[0m
+2022-03-24 19:35:36.615516|[00:09:22.585,327] [1;33m<wrn> bt_mesh_transport: Replay: src 0x54e5 dst 0xffff seq 0x0011e3[0m
+2022-03-24 19:35:36.623887|[00:09:22.864,288] [1;33m<wrn> bt_mesh_transport: Replay: src 0x54e5 dst 0xffff seq 0x0011db[0m
+2022-03-24 19:35:38.471757|[00:09:24.440,643] [1;33m<wrn> bt_mesh_transport: Replay: src 0x54e5 dst 0xffff seq 0x0011d3[0m
+2022-03-24 19:35:38.479204|[00:09:24.700,653] [1;33m<wrn> bt_mesh_transport: Ignoring old SeqAuth[0m
+2022-03-24 19:35:38.487256|[00:09:25.000,671] [1;33m<wrn> bt_mesh_transport: Ignoring old SeqAuth[0m
+2022-03-24 19:35:38.494367|[00:09:25.261,779] [1;33m<wrn> bt_mesh_transport: Replay: src 0x54e5 dst 0xffff seq 0x0011cd[0m
+2022-03-24 19:35:39.579198|[00:09:25.549,011] [1;33m<wrn> bt_mesh_transport: Ignoring old SeqAuth[0m
+2022-03-24 19:35:39.586547|[00:09:25.785,736] [1;33m<wrn> bt_mesh_transport: Duplicate SDU from src 0x54e5[0m
+2022-03-24 19:35:39.594143|[00:09:26.523,559] [1;33m<wrn> bt_mesh_transport: Duplicate SDU from src 0x54e5[0m
+2022-03-24 19:35:41.118602|[00:09:27.089,080] [1;33m<wrn> bt_mesh_transport: Ignoring old SeqAuth[0m
+2022-03-24 19:35:41.126777|[00:09:27.352,966] [1;33m<wrn> bt_mesh_transport: Ignoring old SeqAuth[0m
+2022-03-24 19:35:42.730382|[00:09:28.700,164] [1;33m<wrn> bt_mesh_transport: Duplicate SDU from src 0x54e5[0m
+2022-03-24 19:35:42.738053|[00:09:29.249,908] [1;33m<wrn> bt_mesh_transport: Ignoring old SeqAuth[0m
+2022-03-24 19:35:42.745440|[00:09:29.532,928] [1;33m<wrn> bt_mesh_transport: Ignoring old SeqAuth[0m
+2022-03-24 19:35:43.852176|[00:09:29.821,166] [1;33m<wrn> bt_mesh_transport: Ignoring old SeqAuth[0m
+2022-03-24 19:35:43.858721|[00:09:30.116,607] [1;33m<wrn> bt_mesh_transport: Duplicate SDU from src 0x54e5[0m
+2022-03-24 19:35:43.865557|[00:09:30.323,242] [1;33m<wrn> bt_mesh_transport: Ignoring old SeqAuth[0m
+2022-03-24 19:35:43.872813|[00:09:30.709,960] [1;33m<wrn> bt_mesh_transport: Ignoring old SeqAuth[0m
+2022-03-24 19:35:45.316449|[00:09:31.285,644] [1;33m<wrn> bt_mesh_transport: Ignoring old SeqAuth[0m
+2022-03-24 19:35:45.323280|[00:09:31.577,209] [1;33m<wrn> bt_mesh_transport: Ignoring old SeqAuth[0m
+2022-03-24 19:35:45.329660|[00:09:31.831,115] [1;33m<wrn> bt_mesh_transport: Ignoring old SeqAuth[0m
+2022-03-24 19:35:47.143623|[00:09:33.112,701] [1;33m<wrn> bt_mesh_transport: Replay: src 0x54e5 dst 0xffff seq 0x001222[0m
+2022-03-24 19:35:47.152034|[00:09:33.311,065] [1;33m<wrn> bt_mesh_transport: Replay: src 0x54e5 dst 0xffff seq 0x001224[0m
+2022-03-24 19:35:48.163354|[00:09:34.132,232] [1;33m<wrn> bt_mesh_transport: Ignoring old SeqAuth[0m
+2022-03-24 19:35:48.169328|[00:09:34.393,768] [1;33m<wrn> bt_mesh_transport: Ignoring old SeqAuth[0m
+2022-03-24 19:35:48.176555|[00:09:34.974,212] [1;33m<wrn> bt_mesh_transport: Ignoring old SeqAuth[0m
+2022-03-24 19:35:49.284387|[00:09:35.254,028] [1;33m<wrn> bt_mesh_transport: Ignoring old SeqAuth[0m
+2022-03-24 19:35:49.291334|[00:09:35.522,583] [1;33m<wrn> bt_mesh_transport: Duplicate SDU from src 0x54e5[0m
+2022-03-24 19:35:49.298674|[00:09:35.775,573] [1;33m<wrn> bt_mesh_transport: Ignoring old SeqAuth[0m
+2022-03-24 19:35:50.379033|[00:09:36.348,297] [1;33m<wrn> bt_mesh_transport: Ignoring old SeqAuth[0m
+2022-03-24 19:35:50.386721|[00:09:36.666,992] [1;33m<wrn> bt_mesh_transport: Ignoring old SeqAuth[0m
+2022-03-24 19:35:50.393591|[00:09:36.881,530] [1;33m<wrn> bt_mesh_transport: Duplicate SDU from src 0x54e5[0m
+2022-03-24 19:35:50.400568|[00:09:37.231,872] [1;33m<wrn> bt_mesh_transport: Ignoring old SeqAuth[0m
+2022-03-24 19:35:51.632312|[00:09:37.600,646] [1;33m<wrn> bt_mesh_transport: Duplicate SDU from src 0x54e5[0m
+2022-03-24 19:35:51.637939|[00:09:37.920,440] [1;33m<wrn> bt_mesh_transport: Ignoring old SeqAuth[0m
+2022-03-24 19:35:51.646173|[00:09:38.150,512] [1;33m<wrn> bt_mesh_transport: Ignoring old SeqAuth[0m
+2022-03-24 19:35:51.653151|[00:09:38.416,687] [1;33m<wrn> bt_mesh_transport: Ignoring old SeqAuth[0m
+2022-03-24 19:35:52.918905|[00:09:38.887,786] [1;33m<wrn> bt_mesh_transport: Duplicate SDU from src 0x54e5[0m
+2022-03-24 19:35:52.926207|[00:09:39.636,474] [1;33m<wrn> bt_mesh_transport: Duplicate SDU from src 0x54e5[0m
+2022-03-24 19:35:54.147792|[00:09:40.118,133] [1;33m<wrn> bt_mesh_transport: Ignoring old SeqAuth[0m
+2022-03-24 19:35:54.154953|[00:09:40.422,119] [1;33m<wrn> bt_mesh_transport: Ignoring old SeqAuth[0m
+2022-03-24 19:35:54.162490|[00:09:40.765,106] [1;33m<wrn> bt_mesh_transport: Ignoring old SeqAuth[0m
+2022-03-24 19:35:55.621832|seq: 5733
+2022-03-24 19:35:55.753347|[00:09:41.722,595] [1;33m<wrn> bt_mesh_transport: Ignoring old SeqAuth[0m
+2022-03-24 19:35:55.759266|[00:09:41.983,612] [1;33m<wrn> bt_mesh_transport: Ignoring old SeqAuth[0m
+2022-03-24 19:35:55.766466|[00:09:42.328,063] [1;33m<wrn> bt_mesh_transport: Ignoring old SeqAuth[0m
+2022-03-24 19:35:57.370085|[00:09:43.339,721] [1;33m<wrn> bt_mesh_transport: Ignoring old SeqAuth[0m
+2022-03-24 19:35:57.376897|[00:09:43.624,572] [1;33m<wrn> bt_mesh_transport: Duplicate SDU from src 0x54e5[0m
+2022-03-24 19:35:57.385207|[00:09:43.895,782] [1;33m<wrn> bt_mesh_transport: Ignoring old SeqAuth[0m
+2022-03-24 19:35:57.392260|[00:09:44.299,530] [1;33m<wrn> bt_mesh_transport: Ignoring old SeqAuth[0m
+2022-03-24 19:35:58.618893|[00:09:44.588,409] [1;33m<wrn> bt_mesh_transport: Duplicate SDU from src 0x54e5[0m
+2022-03-24 19:35:58.626168|[00:09:44.877,105] [1;33m<wrn> bt_mesh_transport: Ignoring old SeqAuth[0m
+2022-03-24 19:35:58.633815|[00:09:45.447,814] [1;33m<wrn> bt_mesh_transport: Ignoring old SeqAuth[0m
+2022-03-24 19:36:00.024545|[00:09:45.994,812] [1;33m<wrn> bt_mesh_transport: Duplicate SDU from src 0x54e5[0m
+2022-03-24 19:36:00.033242|[00:09:46.266,571] [1;33m<wrn> bt_mesh_transport: Ignoring old SeqAuth[0m
+2022-03-24 19:36:00.040252|[00:09:46.547,454] [1;33m<wrn> bt_mesh_transport: Duplicate SDU from src 0x54e5[0m
+2022-03-24 19:36:01.082968|[00:09:47.051,574] [1;33m<wrn> bt_mesh_transport: Ignoring old SeqAuth[0m
+2022-03-24 19:36:01.088977|[00:09:47.996,093] [1;33m<wrn> bt_mesh_transport: Duplicate SDU from src 0x54e5[0m
+2022-03-24 19:36:02.310331|[00:09:48.280,120] [1;33m<wrn> bt_mesh_transport: Ignoring old SeqAuth[0m
+2022-03-24 19:36:02.317705|[00:09:48.541,870] [1;33m<wrn> bt_mesh_transport: Ignoring old SeqAuth[0m
+2022-03-24 19:36:02.324569|[00:09:48.872,894] [1;33m<wrn> bt_mesh_transport: Duplicate SDU from src 0x54e5[0m
+2022-03-24 19:36:02.332560|[00:09:49.136,505] [1;33m<wrn> bt_mesh_transport: Ignoring old SeqAuth[0m
+2022-03-24 19:36:03.891053|[00:09:49.859,619] [1;33m<wrn> bt_mesh_transport: Duplicate SDU from src 0x54e5[0m
+2022-03-24 19:36:03.897248|[00:09:50.127,960] [1;33m<wrn> bt_mesh_transport: Ignoring old SeqAuth[0m
+2022-03-24 19:36:03.904789|[00:09:50.400,634] [1;33m<wrn> bt_mesh_transport: Ignoring old SeqAuth[0m
+2022-03-24 19:36:03.911724|[00:09:50.820,922] [1;33m<wrn> bt_mesh_transport: Ignoring old SeqAuth[0m
+2022-03-24 19:36:05.143427|[00:09:51.112,487] [1;33m<wrn> bt_mesh_transport: Ignoring old SeqAuth[0m
+2022-03-24 19:36:05.149382|[00:09:51.666,137] [1;33m<wrn> bt_mesh_transport: Ignoring old SeqAuth[0m
+2022-03-24 19:36:05.155849|[00:09:51.976,684] [1;33m<wrn> bt_mesh_transport: Duplicate SDU from src 0x54e5[0m
+2022-03-24 19:36:06.598525|[00:09:52.567,352] [1;33m<wrn> bt_mesh_transport: Ignoring old SeqAuth[0m
+2022-03-24 19:36:06.605053|[00:09:52.879,455] [1;33m<wrn> bt_mesh_transport: Ignoring old SeqAuth[0m
+2022-03-24 19:36:06.613266|[00:09:53.181,488] [1;33m<wrn> bt_mesh_transport: Ignoring old SeqAuth[0m
+2022-03-24 19:36:06.619264|[00:09:53.392,608] [1;33m<wrn> bt_mesh_transport: Duplicate SDU from src 0x54e5[0m
+2022-03-24 19:36:06.686050|seq: 5866
+2022-03-24 19:36:08.145056|[00:09:54.113,616] [1;33m<wrn> bt_mesh_transport: Replay: src 0x54e5 dst 0xffff seq 0x0012d9[0m
+2022-03-24 19:36:08.152901|[00:09:54.373,291] [1;33m<wrn> bt_mesh_transport: Replay: src 0x54e5 dst 0xffff seq 0x0012db[0m
+2022-03-24 19:36:08.162251|[00:09:54.634,735] [1;33m<wrn> bt_mesh_transport: Replay: src 0x54e5 dst 0xffff seq 0x0012de[0m
+2022-03-24 19:36:10.443876|[00:09:56.412,780] [1;33m<wrn> bt_mesh_transport: Ignoring old SeqAuth[0m
+2022-03-24 19:36:10.449605|[00:09:56.630,798] [1;33m<wrn> bt_mesh_transport: Replay: src 0x54e5 dst 0xffff seq 0x0012e4[0m
+2022-03-24 19:36:10.459501|[00:09:56.967,651] [1;33m<wrn> bt_mesh_transport: Duplicate SDU from src 0x54e5[0m
+2022-03-24 19:36:10.466512|[00:09:57.183,319] [1;33m<wrn> bt_mesh_transport: Ignoring old SeqAuth[0m
+2022-03-24 19:36:11.476390|[00:09:57.445,159] [1;33m<wrn> bt_mesh_transport: Duplicate SDU from src 0x54e5[0m
+2022-03-24 19:36:12.558371|[00:09:58.527,313] [1;33m<wrn> bt_mesh_transport: Duplicate SDU from src 0x54e5[0m
+2022-03-24 19:36:12.565691|[00:09:59.026,458] [1;33m<wrn> bt_mesh_transport: Replay: src 0x54e5 dst 0xffff seq 0x0012e1[0m
+2022-03-24 19:36:13.048529| 
